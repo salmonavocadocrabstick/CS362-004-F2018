@@ -5,6 +5,42 @@
 #include <math.h>
 #include <stdlib.h>
 
+
+void adventurer_effect( int z , int drawntreasure, int cardDrawn, struct gameState* state, int currentPlayer ){
+
+    int temphand[MAX_HAND];// moved above the if statement
+
+   while(drawntreasure<2){
+        if (state->deckCount[currentPlayer] <1){//if the deck is empty we need to shuffle discard and add to deck
+          shuffle(currentPlayer, state);
+        }
+          drawCard(currentPlayer, state);
+          cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
+        if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
+            drawntreasure++;
+        else{
+            temphand[z]=cardDrawn;
+            state->handCount[currentPlayer]--; //this should just remove the top card (the most recently drawn one).
+            z++;
+          }
+   }
+      while(z-1>0){ //changed to > instead of just >=
+           state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
+           z=z-1;
+         }
+}
+
+void smithy_effect_bug(int currentPlayer, gameState* state, int handPos){
+    for (i = 0; i < 3; i++)
+    {
+      drawCard(currentPlayer, state);
+    }
+
+    //discard card from hand
+    discardCard(currentPlayer, handPos, state, 0);
+    //discardCard(handPos, currentPlayer, state, 0);
+}
+
 int compare(const void* a, const void* b) {
   if (*(int*)a > *(int*)b)
     return 1;
@@ -662,29 +698,16 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
     nextPlayer = 0;
   }
   
+
+
+
+}
 	
   //uses switch to select card and perform actions
   switch( card ) 
     {
     case adventurer:
-      while(drawntreasure<2){
-	if (state->deckCount[currentPlayer] <1){//if the deck is empty we need to shuffle discard and add to deck
-	  shuffle(currentPlayer, state);
-	}
-	drawCard(currentPlayer, state);
-	cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];//top card of hand is most recently drawn card.
-	if (cardDrawn == copper || cardDrawn == silver || cardDrawn == gold)
-	  drawntreasure++;
-	else{
-	  temphand[z]=cardDrawn;
-	  state->handCount[currentPlayer]--; //this should just remove the top card (the most recently drawn one).
-	  z++;
-	}
-      }
-      while(z-1>=0){
-	state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1]; // discard all cards in play that have been drawn
-	z=z-1;
-      }
+      adventurer_effect(z, drawntreasure, cardDrawn, &state, currentPlayer);
       return 0;
 			
     case council_room:

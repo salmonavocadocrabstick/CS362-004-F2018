@@ -431,6 +431,8 @@ int fullDeckCount(int player, int card, struct gameState *state) {
       if (state->discard[player][i] == card) count++;
     }
 
+    printf("Count: %d\n\n", count);
+
   return count;
 }
 

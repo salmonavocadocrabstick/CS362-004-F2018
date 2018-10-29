@@ -8,29 +8,20 @@
 #include "rngs.h"
 
 
+void testTorF(int result);
+
 int main(){
 
-	//Test target: 
-	int testTarget = adventurer;
 
-	//Information on testTarget
-	int newCards = 0;
-	int discarded = 1;
-	int extraCoins = 2;
-	int shuffleCards = 0;
-	int extraBuys = 0;
-	int extraActions = 0;
-	int treasureCards = 2;
+	//Test target: int supplyCount(int card, struct gameState *state)
 
-	int x, y, z;
-    int handpos = 0, choice1 = 0, choice2 = 0, choice3 = 0, bonus = 0;
-    int remove1, remove2;
 
 	//For Initializing game
-	int numPlayers = 2;
+	int numPlayers = 4;
+	//int currentPlayer = 0;
 	int seed = 500;
 
-    //Base state
+	//Base state
 	struct gameState s;
 	struct gameState *state = &s;
 	memset(state, 0, sizeof(struct gameState));
@@ -40,153 +31,73 @@ int main(){
 	struct gameState *testState = &t;
 	memset(state, 0, sizeof(struct gameState));
 
-	//Setting up first move
-	int currentPlayer = 0;
-
+	// //Copy base over to test game.
+	// memcpy(testState, state, sizeof(struct gameState));
 
 	int k[10] = {adventurer, smithy, great_hall, minion, mine, cutpurse,
-			sea_hag, tribute, smithy, council_room};
+			sea_hag, tribute, province, council_room};
 
 	printf("Initiating Test game....\n");
 
  	//Initiate a game state for base
 	initializeGame(numPlayers, k, seed, state);
 
- 	//Player decks: 3 cards of target, 7 cards of coppers
-    //Draw cards simultaneously
-	for (z = 0; z < numPlayers; z++)
-	{
-
-		state->deckCount[z] = 0;
-		for (x = 0; x < 2; x++)
-		{
-		  	state->deck[z][x] = copper;
-		 	 state->deckCount[z]++;
-		}
-
-		for (x = 2; x < 10; x++)
-		{
-		  	state->deck[z][x] = testTarget;
-		  	state->deckCount[z]++;    
-		}
-
-		state->handCount[z] = 0;
-		state->discardCount[z] = 0;
-
-	    testState->hand[currentPlayer][0] = testState->deck[currentPlayer][9];//Add card to hand
-	    testState->deckCount[currentPlayer]--;
-	    testState->handCount[currentPlayer]++;//Increment hand count
-
-		//testState->hand[z][handpos] = testTarget;
-	}
 
 
-
-	//Copy base over to test game.
-	memcpy(testState, state, sizeof(struct gameState));
-	choice1 = 1;
-
-	int tCount_beforeDraw = 0;
-	for(x = 0; x < testState->handCount[currentPlayer]; x++){
-
-		if(testState->hand[currentPlayer][x] == copper){
-
-			tCount_beforeDraw++;
-		}
-
-	}
-
-	//Run a check on current coin count
-	int currentCoin = testState->coins;
-
-
-	//Run card effect.
-	cardEffect(testTarget, choice1, choice2, choice3, testState, handpos, &bonus);
-
-
-	printf("Testing Counters....\n");
+	printf("Testing Case: Supply Count - default....\n");
 	printf("-----------------------------------------------------\n");
-	printf("\t- Hand count now = %d\t|\tbefore = %d \n", 
-		testState->handCount[currentPlayer], 
-		state->handCount[currentPlayer]);
 
-	printf("\t- Deck count now = %d\t|\tbefore = %d \n",
-		testState->deckCount[currentPlayer],
-		state->deckCount[currentPlayer]);
+	int test1 = supplyCount(adventurer, testState);
+	int test2 = supplyCount(smithy, testState);
+	int test3 = supplyCount(gardens, testState);
+	int test4 = supplyCount(great_hall, testState);
+	int test5 = supplyCount(minion, testState);
+	int test6 = supplyCount(ambassador, testState);
 
-	printf("\t- Coin amount now = %d\t|\tbefore = %d \n",
-		testState->coins,
-		state->coins);
+	printf("Adventurer: \t%d\n", test1);
+	printf("smithy: \t%d\n", test2);
+	printf("great_hall: \t%d\n", test4);
+	printf("minion: \t%d\n", test5);
 
-	//Count #treasure cards
-	int tCount=0;
-	for(x = 0; x < testState->handCount[currentPlayer]; x++){
-
-		if(testState->hand[currentPlayer][x] == copper){
-
-
-			tCount++;
-		}
-	}
-	printf("\t- # of treasure now = %d\t|\tbefore = %d\n", 
-		tCount, 
-		tCount_beforeDraw);
-
-
-	printf("\t- Discarded # now = %d\t|\tbefore = %d\n",
-		testState->discardCount[currentPlayer],
-		state->discardCount[currentPlayer]);
-
-	printf("\t- Numbuy = %d\t\t|\texpected = %d\n",
-		testState->numBuys,
-		state->numBuys + extraBuys );
-
-	printf("\t- NumAction = %d\t\t|\texpected = %d\n",
-		testState->numActions,
-		state->numActions+extraActions);
-
-	printf("\t- Score = %d\t\t|\tbefore = %d\n",
-		scoreFor(0, testState),
-		scoreFor(0, state));
-
+	printf("K cards that are not currently used: \n");
+	printf("gardens: \t%d\n", test3);
+	printf("gardens: \t%d\n", test6);
 	printf("\n\n");
 
-
 	//Copy base over to test game.
 	memcpy(testState, state, sizeof(struct gameState));
-	choice1 = 1;
+	printf("Testing Case: filling up the supplies...\n");
 
-	//Setting up first move
-	currentPlayer = 0;
+	test1 = supplyCount(adventurer, testState);
+	test2 = supplyCount(smithy, testState);
+	test3 = supplyCount(gardens, testState);
+	test4 = supplyCount(great_hall, testState);
+	test5 = supplyCount(minion, testState);
+	test6 = supplyCount(ambassador, testState);
 
-	//Run a check on current coin count
-	currentCoin = testState->coins;
+	printf("Adventurer: \t%d\n", test1);
+	printf("smithy: \t%d\n", test2);
+	printf("great_hall: \t%d\n", test4);
+	printf("minion: \t%d\n", test5);
 
-
-	cardEffect(testTarget, choice1, choice2, choice3, testState, handpos, &bonus);
-	
-	printf("Testing in case of 0 treasure card exists.....\n");
-	printf("-----------------------------------------------------\n");
-	for( x = 0; x < testState->handCount[currentPlayer]; x++){
-
-		if( testState->hand[currentPlayer][x] == copper ){
-
-			testState->hand[currentPlayer][x] = -1;
-		}
-
-	}
-	for( y = 0; y < testState->deckCount[currentPlayer]; y++){
-
-		if(testState->deck[currentPlayer][y] == copper){
-
-			testState->deck[currentPlayer][y] = -1;
-		}
-	}
-
-
+	printf("K cards that are not currently used: \n");
+	printf("gardens: \t%d\n", test3);
+	printf("gardens: \t%d\n", test6);
+	printf("\n\n");
 
 
 
 	return 0;
 }
 
+void testTorF(int result){
+
+	if(result == 1){
+
+		printf("TRUE\n\n");
+	}
+	else if(result == 0){
+
+		printf("FALSE\n\n");
+	}
+}

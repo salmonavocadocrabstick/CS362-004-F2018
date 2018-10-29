@@ -493,9 +493,9 @@ int isGameOver(struct gameState *state) {
   for (i = 0; i < 25; i++)
     {
       if (state->supplyCount[i] == 0)
-	{
-	  j++;
-	}
+    	{
+    	  j++;
+    	}
     }
   if ( j >= 3)
     {
@@ -556,13 +556,13 @@ int getWinners(int players[MAX_PLAYERS], struct gameState *state) {
     {
       //set unused player scores to -9999
       if (i >= state->numPlayers)
-	{
-	  players[i] = -9999;
-	}
+    	{
+    	  players[i] = -9999;
+    	}
       else
-	{
-	  players[i] = scoreFor (i, state);
-	}
+    	{
+    	  players[i] = scoreFor (i, state);
+    	}
     }
 
   //find highest score
@@ -570,9 +570,9 @@ int getWinners(int players[MAX_PLAYERS], struct gameState *state) {
   for (i = 0; i < MAX_PLAYERS; i++)
     {
       if (players[i] > players[j])
-	{
-	  j = i;
-	}
+    	{
+    	  j = i;
+    	}
     }
   highScore = players[j];
 
@@ -581,9 +581,9 @@ int getWinners(int players[MAX_PLAYERS], struct gameState *state) {
   for (i = 0; i < MAX_PLAYERS; i++)
     {
       if ( players[i] == highScore && i > currentPlayer )
-	{
-	  players[i]++;
-	}
+    	{
+    	  players[i]++;
+    	}
     }
 
   //find new highest score
@@ -645,7 +645,9 @@ int drawCard(int player, struct gameState *state)
       printf("Current hand count: %d\n", count);
     }
     
+    
     deckCounter = state->deckCount[player];//Create a holder for the deck count
+   
 
     if (deckCounter == 0)
       return -1;
@@ -655,17 +657,22 @@ int drawCard(int player, struct gameState *state)
     state->handCount[player]++;//Increment hand count
   }
 
+  
   else{
     int count = state->handCount[player];//Get current hand count for player
     int deckCounter;
     if (DEBUG){//Debug statements
       printf("Current hand count: %d\n", count);
+       printf("Crash test \n");
     }
 
+    
     deckCounter = state->deckCount[player];//Create holder for the deck count
     state->hand[player][count] = state->deck[player][deckCounter - 1];//Add card to the hand
     state->deckCount[player]--;
     state->handCount[player]++;//Increment hand count
+
+
   }
 
   return 0;
@@ -811,8 +818,8 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
 
       //Reset Hand
       for (i = 0; i <= state->handCount[currentPlayer]; i++){
-	state->hand[currentPlayer][i] = temphand[i];
-	temphand[i] = -1;
+	     state->hand[currentPlayer][i] = temphand[i];
+	     temphand[i] = -1;
       }
       //Reset Hand
       			

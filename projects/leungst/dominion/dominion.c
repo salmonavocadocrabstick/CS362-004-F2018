@@ -59,6 +59,7 @@ void council_room_effect_bug(int currentPlayer, struct gameState* state, int han
 void smithy_effect_bug(int currentPlayer, struct gameState* state, int handPos){
     
     int i;
+
     for (i = 0; i < 3; i++)
     {
       drawCard(currentPlayer, state);
@@ -66,7 +67,9 @@ void smithy_effect_bug(int currentPlayer, struct gameState* state, int handPos){
 
     //discard card from hand
     discardCard(currentPlayer, handPos, state, 0);
-    //discardCard(handPos, currentPlayer, state, 0);
+
+   // discardCard(handPos, currentPlayer, state, 0);
+
 }
 
 void outpost_effect_bug(struct gameState* state, int currentPlayer, int handPos){
@@ -1273,6 +1276,7 @@ int discardCard(int handPos, int currentPlayer, struct gameState *state, int tra
   //set played card to -1
   state->hand[currentPlayer][handPos] = -1;
 	
+
   //remove card from player's hand
   if ( handPos == (state->handCount[currentPlayer] - 1) ) 	//last card in hand array is played
     {
@@ -1293,6 +1297,7 @@ int discardCard(int handPos, int currentPlayer, struct gameState *state, int tra
       //reduce number of cards in hand
       state->handCount[currentPlayer]--;
     }
+
 	
   return 0;
 }

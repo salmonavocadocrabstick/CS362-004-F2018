@@ -10,7 +10,7 @@
 
 
 int checkSmithy(int currentPlayer, struct gameState* testGame, int handPos, int handCount, int deckCount);
-int** checkState(int currentPlayer, struct gameState* testGame, int totalParameters);
+int** checkState(int currentPlayer, struct gameState* testGame);
 int checkDiscarded(int currentPlayer, struct gameState* testGame);
 void fillDeckWithCard(int currentPlayer, struct gameState* testGame, int card, int deckCount);
 int compareStates(int** beforeState, int** afterState, int p, int numPlayers, int parameters);
@@ -19,38 +19,30 @@ int compareStates(int** beforeState, int** afterState, int p, int numPlayers, in
 
 int main(){
 
-	//Test Target:
-	int testTarget = council_room;
-
-
 	//base variables to set up the test
-	int x, i, n, r, p, numPlayers, handPos;
-	int testResult = -10;
-	int compareBeforeAfter = 0;
-	int totalTests = 5;
-
-	//Expecting: +4 cards, +1 buy
-	//States to check
-	int totalParameters = 3;
-	int deckCount, discardCount, handCount
-
-	//Setting up the game
+	int x, i, n, r, p, deckCount, discardCount, handCount, numPlayers, handPos;
 	int seed = 500;
 	int k[10] = { adventurer, council_room, feast, gardens, mine,
 	       remodel, smithy, village, baron, great_hall };
+
+
+	int testTarget = smithy;
+	int testResult = -10;
+	int compareBeforeAfter = 0;
+	int totalTests = 5000;
+
 	struct gameState t;
 	struct gameState* t_ptr = &t;
 	memset(t_ptr, 0, sizeof(struct gameState));
-
 
 	//Initiate a game state for base
 	initializeGame(numPlayers, k, seed, t_ptr);
 
 
-
 	numPlayers = floor(Random() * 4);
 
 	for (x = 0; x < numPlayers; x++){
+
 		p = floor(Random() * 2);
 		t.deckCount[p] = floor(Random() * MAX_DECK);
 		t.discardCount[p] = floor(Random() * MAX_DECK);
@@ -60,6 +52,7 @@ int main(){
 
 
 	//For state checks
+	//beforeState[3][numPlayers];
 	int **afterState = NULL;
 	int **beforeState = NULL;
 
@@ -83,25 +76,18 @@ int main(){
 		t.handCount[p] = floor(Random() * MAX_HAND);
 		printf("Current Hand Count: %d\n", t.handCount[p]);
 
-		t.numBuys = floor(Rand() * MAX_HAND); //Maximum possible: assuming each card +1 buy
-		printf("Current Buy Count %d\n", t.numBuys);
-		
-		t.numActions = floor(Rand() * MAX_HAND * 2) //Maximum possible: assuming each card + no more than 2
-		printf("Current Action Count %d\n", t.numActions);
+		handPos = floor(Random() * t.handCount[p]); //randomize position of smithy.
 
-
-		handPos = floor(Random() * t.handCount[p]); //randomize position of target card.
 		t.hand[p][handPos] = testTarget;
-
 		//check state - before
-		beforeState = checkState(numPlayers, t_ptr, totalParameters);
+		beforeState = checkState(numPlayers, t_ptr);
 
-		//check target: council_room
-		testResult = checkTarget(p, t_ptr, handPos, t.handCount[p], t.deckCount[p]);
+		//check smithy
+		testResult = checkSmithy(p, t_ptr, handPos, t.handCount[p], t.deckCount[p]);
 		printf("After test result, smith results: %d\n", testResult);
 
 		//check state - again.
-		afterState = checkState(numPlayers, t_ptr, totalParameters);
+		afterState = checkState(numPlayers, t_ptr);
 
 		//Compare the two states.
 		printf("Checking if other players are affected: \n");
@@ -227,20 +213,19 @@ int checkSmithy(int currentPlayer, struct gameState* testGame, int handPos, int 
 	return 0;
 }
 
-int** checkState(int numPlayers, struct gameState* testGame, int totalParameters){
+int** checkState(int numPlayers, struct gameState* testGame){
 
 	//Counters
 	int x, y, z, a;
 
 	//create matrix: numPlayers * 3
-	int **stateCheck = (int **)malloc(totalParameters * sizeof(int*));
-	for (a = 0; a < totalParameters; a++){
+	int **stateCheck = (int **)malloc(3 * sizeof(int*));
+	for (a = 0; a < 3; a++){
 
 		stateCheck[a] = (int*)malloc(numPlayers * sizeof(int));
 	}
-	memset(stateCheck, 0, sizeof(int)* totalParameters * numPlayers);
+	memset(stateCheck, 0, sizeof(int)* 3 * numPlayers);
 
-	//=======================Change for each card ========================/
 
 	//everyone's deckCount
 	for( x = 0; x < numPlayers; x++){
@@ -260,9 +245,7 @@ int** checkState(int numPlayers, struct gameState* testGame, int totalParameters
 		stateCheck[2][z] = testGame->discardCount[z];
 	}
 
-
-	//=======================Change for each card ========================/
-
+	//change to returning the whole array.
 	return stateCheck;
 }
 

@@ -8,9 +8,11 @@
 #include <math.h>
 #include <assert.h>
 
+#define TRUE 1
+#define FALSE 0
 
-int checkSmithy(int currentPlayer, struct gameState* testGame, int handPos, int handCount, int deckCount);
-int** checkState(int currentPlayer, struct gameState* testGame);
+int checkTarget(int currentPlayer, struct gameState* testGame, int handPos, int handCount, int deckCount);
+int** checkState(int currentPlayer, struct gameState* testGame, int totalParameters);
 int checkDiscarded(int currentPlayer, struct gameState* testGame);
 void fillDeckWithCard(int currentPlayer, struct gameState* testGame, int card, int deckCount);
 int compareStates(int** beforeState, int** afterState, int p, int numPlayers, int parameters);
@@ -19,30 +21,41 @@ int compareStates(int** beforeState, int** afterState, int p, int numPlayers, in
 
 int main(){
 
+	//Test Target:
+	int testTarget = council_room;
+	printf("Testing [ COUNCIL_ROOM ]  \n");
+
+
 	//base variables to set up the test
-	int x, i, n, r, p, deckCount, discardCount, handCount, numPlayers, handPos;
+	int x, i, n, r, p, numPlayers, handPos;
+	int testResult = -10;
+	int compareBeforeAfter = 0;
+
+	//Testing counters
+	int totalTests = 5;
+
+	//Expecting: +4 cards, +1 buy
+	//States to check
+	int totalParameters = 3;
+	int deckCount, discardCount, handCount;
+
+	//Setting up the game
 	int seed = 500;
 	int k[10] = { adventurer, council_room, feast, gardens, mine,
 	       remodel, smithy, village, baron, great_hall };
-
-
-	int testTarget = smithy;
-	int testResult = -10;
-	int compareBeforeAfter = 0;
-	int totalTests = 5000;
-
 	struct gameState t;
 	struct gameState* t_ptr = &t;
 	memset(t_ptr, 0, sizeof(struct gameState));
 
-	//Initiate a game state for base
-	initializeGame(numPlayers, k, seed, t_ptr);
-
 
 	numPlayers = floor(Random() * 4);
 
-	for (x = 0; x < numPlayers; x++){
 
+	//Initiate a game state for base
+	initializeGame(numPlayers, k, seed, t_ptr);
+	
+
+	for (x = 0; x < numPlayers; x++){
 		p = floor(Random() * 2);
 		t.deckCount[p] = floor(Random() * MAX_DECK);
 		t.discardCount[p] = floor(Random() * MAX_DECK);
@@ -52,7 +65,6 @@ int main(){
 
 
 	//For state checks
-	//beforeState[3][numPlayers];
 	int **afterState = NULL;
 	int **beforeState = NULL;
 
@@ -76,21 +88,27 @@ int main(){
 		t.handCount[p] = floor(Random() * MAX_HAND);
 		printf("Current Hand Count: %d\n", t.handCount[p]);
 
-		handPos = floor(Random() * t.handCount[p]); //randomize position of smithy.
+		t.numBuys = floor(Random() * MAX_HAND); //Maximum possible: assuming each card +1 buy
+		printf("Current Buy Count %d\n", t.numBuys);
+		
+		t.numActions = floor(Random() * MAX_HAND * 2); //Maximum possible: assuming each card + no more than 2
+		printf("Current Action Count %d\n", t.numActions);
 
+
+		handPos = floor(Random() * t.handCount[p]); //randomize position of target card.
 		t.hand[p][handPos] = testTarget;
-		//check state - before
-		beforeState = checkState(numPlayers, t_ptr);
 
-		//check smithy
-		testResult = checkSmithy(p, t_ptr, handPos, t.handCount[p], t.deckCount[p]);
-		printf("After test result, smith results: %d\n", testResult);
+		//check state - before
+		beforeState = checkState(numPlayers, t_ptr, totalParameters);
+
+		//check target: council_room
+		testResult = checkTarget(p, t_ptr, handPos, t.handCount[p], t.deckCount[p]);
 
 		//check state - again.
-		afterState = checkState(numPlayers, t_ptr);
+		afterState = checkState(numPlayers, t_ptr, totalParameters);
 
 		//Compare the two states.
-		printf("Checking if other players are affected: \n");
+		printf("Testing if other players are affected: \n");
 		compareBeforeAfter = compareStates(beforeState, afterState, p, numPlayers, 3);
 		if(compareBeforeAfter == 0){
 
@@ -100,10 +118,9 @@ int main(){
 			printf("\t...FAILED \n");
 		}
 
+
+
 	}
-
-
-
 
 	return 0;
 }
@@ -125,11 +142,11 @@ int compareStates(int** beforeState, int** afterState, int p, int numPlayers, in
 			}
 			else{ 
 
-				// printf("X is %d\n", x);
-				// printf("Y is %d\n", y);
+				printf("X is %d\n", x);
+				printf("Y is %d\n", y);
 
-				// printf("Before: %d\n", beforeState[x][y]); 
-				// printf("After: %d\n", afterState[x][y]);
+				printf("Before: %d\n", beforeState[x][y]); 
+				printf("After: %d\n", afterState[x][y]);
 				if( y == p){
 
 					continue;
@@ -153,15 +170,19 @@ int compareStates(int** beforeState, int** afterState, int p, int numPlayers, in
 }
 
 
-int checkSmithy(int currentPlayer, struct gameState* testGame, int handPos, int count, int deckCount){
+int checkTarget(int currentPlayer, struct gameState* testGame, int handPos, int count, int deckCount){
 
-	//deck should be 3 cards less than original
-	//handCount should be +3
+	//Expecting: +4 cards, +1 buy
 	int old_deckCount = deckCount;
 	int old_handCount = count;
-	int new_deckCount, new_handCount;
+	int old_numBuys = testGame->numBuys;
+	int old_numActions = testGame->numActions;
+	int new_deckCount, new_handCount, new_numBuys, new_numActions;
 
-	//First check functions that are used by test target
+	//Set to TRUE if found
+	int bugFound = FALSE;
+
+	//First check functions/variables that are used by test target
 	//For current target:
 	// 1. drawcard
 	// 2. discardCard
@@ -176,56 +197,81 @@ int checkSmithy(int currentPlayer, struct gameState* testGame, int handPos, int 
 		if(testGame->handCount[currentPlayer] == count ){
 			printf("\t...PASSED\n");
 			printf("Target card: \n");
-			smithy_effect_bug(currentPlayer, testGame, handPos);
 
+			//Change target card here==================:
+			council_room_effect_bug(currentPlayer, testGame, handPos);
+
+			//==========================================
+
+			//Check new variables here
 			new_deckCount = testGame->deckCount[currentPlayer];
 			new_handCount = testGame->handCount[currentPlayer];
+			new_numActions = testGame->numActions;
+			new_numBuys = testGame->numBuys;
 
-			if(old_deckCount - 3 != new_deckCount){
+			//Check if the new varaibles match as expected
+			if(old_numBuys +1 != new_numBuys){
 				printf("\t...FAILED \n");
-				printf("old deck count %d\n", old_deckCount);
-				printf("new deck count %d\n", new_deckCount);
-				return -1;
+				printf("\t\t...numBuys %d\n", new_numBuys);
+				
+				bugFound = TRUE;
 			}
-			else if(old_handCount + 3 != new_handCount){	
+			if(old_deckCount - 5 != new_deckCount){
 				printf("\t...FAILED \n");
-				printf("old hand count %d\n", old_handCount);
-				printf("new hand count %d\n", new_handCount);
-				return -1;
+				printf("\t\t...deck count %d\n", new_deckCount);
+				bugFound = TRUE;
 			}
+			if(old_handCount + 5 != new_handCount){	
+				printf("\t...FAILED \n");
+				printf("\t\t... hand count %d\n", new_handCount);
+				bugFound = TRUE;
+			}
+			if(old_numActions != new_numActions){
+				printf("\t...FAILED \n");
+				printf("\t\t...numActions %d\n", new_numActions);
+				bugFound = TRUE;
+			}
+
+
 		}
 		else{
 			printf("\t...FAILED \n");
 			printf("!! Something happened to the discard function, aborting\n");
-			return -1;
+			bugFound = TRUE;
 		}
 	}
 	else{
 		printf("\t...FAILED \n");
 		printf("!! Something happened in drawCard() function. Aborting.\n");
-		return -1;
+		bugFound = TRUE;
 	}
 
 
+
+	if(bugFound == TRUE){
+
+		return -1;
+	}
 	
 
 	printf("\t...PASSED\n");
 	return 0;
 }
 
-int** checkState(int numPlayers, struct gameState* testGame){
+int** checkState(int numPlayers, struct gameState* testGame, int totalParameters){
 
 	//Counters
 	int x, y, z, a;
 
 	//create matrix: numPlayers * 3
-	int **stateCheck = (int **)malloc(3 * sizeof(int*));
-	for (a = 0; a < 3; a++){
+	int **stateCheck = (int **)malloc(totalParameters * sizeof(int*));
+	for (a = 0; a < totalParameters; a++){
 
 		stateCheck[a] = (int*)malloc(numPlayers * sizeof(int));
 	}
-	memset(stateCheck, 0, sizeof(int)* 3 * numPlayers);
+	memset(stateCheck, 0, sizeof(int)* totalParameters * numPlayers);
 
+	//=======================Change for each card ========================/
 
 	//everyone's deckCount
 	for( x = 0; x < numPlayers; x++){
@@ -245,7 +291,9 @@ int** checkState(int numPlayers, struct gameState* testGame){
 		stateCheck[2][z] = testGame->discardCount[z];
 	}
 
-	//change to returning the whole array.
+
+	//=======================Change for each card ========================/
+
 	return stateCheck;
 }
 

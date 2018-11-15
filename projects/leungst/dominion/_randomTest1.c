@@ -15,6 +15,7 @@ int checkTarget(int currentPlayer, struct gameState* testGame, int handPos, int 
 int** checkState(int currentPlayer, struct gameState* testGame, int totalParameters);
 int checkDiscarded(int currentPlayer, struct gameState* testGame);
 void fillDeckWithCard(int currentPlayer, struct gameState* testGame, int card, int deckCount);
+void fillDeckWithCard2(int currentPlayer, struct gameState* testGame, int card, int startCount, int totalCount);
 int compareStates(int** beforeState, int** afterState, int p, int numPlayers, int parameters);
 
 
@@ -22,8 +23,8 @@ int compareStates(int** beforeState, int** afterState, int p, int numPlayers, in
 int main(){
 
 	//Test Target:
-	int testTarget = council_room;
-	printf("Testing [ COUNCIL_ROOM ]  \n");
+	int testTarget = adventurer;
+	printf("Testing [ ADVENTURER ]  \n");
 
 
 	//base variables to set up the test
@@ -32,9 +33,9 @@ int main(){
 	int compareBeforeAfter = 0;
 
 	//Testing counters
-	int totalTests = 5;
+	int totalTests = 550;
 
-	//Expecting: +4 cards, +1 buy
+	//Expecting: Continuously drawing until two treasure cards are found
 	//States to check
 	int totalParameters = 3;
 	int deckCount, discardCount, handCount;
@@ -48,12 +49,12 @@ int main(){
 	memset(t_ptr, 0, sizeof(struct gameState));
 
 
-	numPlayers = floor(Random() * 4);
-
-
 	//Initiate a game state for base
 	initializeGame(numPlayers, k, seed, t_ptr);
-	
+
+
+
+	numPlayers = floor(Random() * 4);
 
 	for (x = 0; x < numPlayers; x++){
 		p = floor(Random() * 2);
@@ -69,8 +70,10 @@ int main(){
 	int **beforeState = NULL;
 
 	SelectStream(1);
-	PutSeed(5);
+	PutSeed(200);
 
+	int testTargetCount = 0;
+	int treasureCount = 0;
 
 
 	for ( n = 0; n < totalTests; n++){
@@ -81,19 +84,32 @@ int main(){
 		t.deckCount[p] = floor(Random() * MAX_DECK);
 		printf("Current Deck Count: %d\n", t.deckCount[p]);
 		
-		fillDeckWithCard(p, t_ptr, testTarget, t.deckCount[p]);
+		//Splitting deck count between treasure cards and test target
+		testTargetCount = floor(Random() * t.deckCount[p]);
+		treasureCount = t.deckCount[p] - testTargetCount;
+
+
+		fillDeckWithCard(p, t_ptr, testTarget, testTargetCount);
+		fillDeckWithCard2(p, t_ptr, copper, testTargetCount, treasureCount);
+
+		printf("Total Number of Test Target Cards in Deck: %d\n", testTargetCount);
+		
+		//Count #treasure cards
+		int tCount=0;
+		for(x = 0; x < t.deckCount[p]; x++){
+
+			if(t.deck[p][x] == copper){
+
+
+				tCount++;
+			}
+		}
+		printf("Total Number of Treasure Cards in Deck %d\n", tCount);
 
 		t.discardCount[p] = floor(Random() * MAX_DECK);
 		printf("Current Discard Count: %d\n", t.discardCount[p] );
 		t.handCount[p] = floor(Random() * MAX_HAND);
 		printf("Current Hand Count: %d\n", t.handCount[p]);
-
-		t.numBuys = floor(Random() * MAX_HAND); //Maximum possible: assuming each card +1 buy
-		printf("Current Buy Count %d\n", t.numBuys);
-		
-		t.numActions = floor(Random() * MAX_HAND * 2); //Maximum possible: assuming each card + no more than 2
-		printf("Current Action Count %d\n", t.numActions);
-
 
 		handPos = floor(Random() * t.handCount[p]); //randomize position of target card.
 		t.hand[p][handPos] = testTarget;
@@ -101,7 +117,7 @@ int main(){
 		//check state - before
 		beforeState = checkState(numPlayers, t_ptr, totalParameters);
 
-		//check target: council_room
+		//check target: adventurer
 		testResult = checkTarget(p, t_ptr, handPos, t.handCount[p], t.deckCount[p]);
 
 		//check state - again.
@@ -142,11 +158,11 @@ int compareStates(int** beforeState, int** afterState, int p, int numPlayers, in
 			}
 			else{ 
 
-				printf("X is %d\n", x);
-				printf("Y is %d\n", y);
+				// printf("X is %d\n", x);
+				// printf("Y is %d\n", y);
 
-				printf("Before: %d\n", beforeState[x][y]); 
-				printf("After: %d\n", afterState[x][y]);
+				// printf("Before: %d\n", beforeState[x][y]); 
+				// printf("After: %d\n", afterState[x][y]);
 				if( y == p){
 
 					continue;
@@ -172,77 +188,85 @@ int compareStates(int** beforeState, int** afterState, int p, int numPlayers, in
 
 int checkTarget(int currentPlayer, struct gameState* testGame, int handPos, int count, int deckCount){
 
-	//Expecting: +4 cards, +1 buy
+	//Expecting: Continuously drawing until two treasure cards are found
 	int old_deckCount = deckCount;
 	int old_handCount = count;
+	int old_discardCount = testGame->discardCount[currentPlayer];
 	int old_numBuys = testGame->numBuys;
 	int old_numActions = testGame->numActions;
+	int old_totalCards = old_handCount + old_deckCount + old_discardCount;
 	int new_deckCount, new_handCount, new_numBuys, new_numActions;
+	int cardsDrawn = 0;
+	int treasureDrawn = 0;
 
 	//Set to TRUE if found
 	int bugFound = FALSE;
 
-	//First check functions/variables that are used by test target
-	//For current target:
+	// First check functions/variables that are used by test target
+	// For current target:
 	// 1. drawcard
-	// 2. discardCard
+	// 2. shuffle
 	printf("Checking functions used by test target\n");
 	printf("drawCard: \n");
 	drawCard(currentPlayer, testGame);
 	if(testGame->handCount[currentPlayer] == count + 1 ){
 		printf("\t...PASSED\n");
-		printf("discardCard: \n");
-		discardCard(count, currentPlayer, testGame, 0);
+		printf("shuffle: \n");
+		shuffle(currentPlayer, testGame);
 
-		if(testGame->handCount[currentPlayer] == count ){
+		if(testGame->deckCount[currentPlayer] == deckCount ){
 			printf("\t...PASSED\n");
 			printf("Target card: \n");
-
-			//Change target card here==================:
-			council_room_effect_bug(currentPlayer, testGame, handPos);
-
-			//==========================================
-
-			//Check new variables here
-			new_deckCount = testGame->deckCount[currentPlayer];
-			new_handCount = testGame->handCount[currentPlayer];
-			new_numActions = testGame->numActions;
-			new_numBuys = testGame->numBuys;
-
-			//Check if the new varaibles match as expected
-			if(old_numBuys +1 != new_numBuys){
-				printf("\t...FAILED \n");
-				printf("\t\t...numBuys %d\n", new_numBuys);
-				
-				bugFound = TRUE;
-			}
-			if(old_deckCount - 5 != new_deckCount){
-				printf("\t...FAILED \n");
-				printf("\t\t...deck count %d\n", new_deckCount);
-				bugFound = TRUE;
-			}
-			if(old_handCount + 5 != new_handCount){	
-				printf("\t...FAILED \n");
-				printf("\t\t... hand count %d\n", new_handCount);
-				bugFound = TRUE;
-			}
-			if(old_numActions != new_numActions){
-				printf("\t...FAILED \n");
-				printf("\t\t...numActions %d\n", new_numActions);
-				bugFound = TRUE;
-			}
-
-
 		}
 		else{
 			printf("\t...FAILED \n");
-			printf("!! Something happened to the discard function, aborting\n");
+
+			printf("Old deck count: %d\n", old_deckCount);
+			printf("New deck count: %d\n", new_deckCount);
+
 			bugFound = TRUE;
-		}
+		}		
 	}
 	else{
 		printf("\t...FAILED \n");
-		printf("!! Something happened in drawCard() function. Aborting.\n");
+
+		bugFound = TRUE;
+	}
+
+
+	//Change target card here==================:
+	adventurer_effect_bug(0, treasureDrawn,  testGame, currentPlayer );
+
+	//==========================================
+
+	//Check new variables here
+	new_deckCount = testGame->deckCount[currentPlayer];
+	new_handCount = testGame->handCount[currentPlayer];
+	new_numActions = testGame->numActions;
+	new_numBuys = testGame->numBuys;
+
+	//Check if the new varaibles match as expected
+	if(old_numBuys != new_numBuys){
+		printf("\t...FAILED \n");
+		printf("\t\t...numBuys %d\n", new_numBuys);
+		
+		bugFound = TRUE;
+	}
+
+	if(old_numActions != new_numActions){
+		printf("\t...FAILED \n");
+		printf("\t\t...numActions %d\n", new_numActions);
+		bugFound = TRUE;
+	}
+
+	if(old_deckCount != new_deckCount){
+		printf("\t...FAILED \n");
+		printf("\t\t...deck count %d\n", new_deckCount);
+		bugFound = TRUE;
+	}
+	if(old_handCount + 5 != new_handCount){	
+		printf("\t...FAILED \n");
+		printf("\t\t... hand count %d\n", new_handCount);
 		bugFound = TRUE;
 	}
 
@@ -312,4 +336,26 @@ void fillDeckWithCard(int currentPlayer, struct gameState* testGame, int card, i
 
 		testGame->deck[currentPlayer][x] = card;
 	}
+}
+
+void fillDeckWithCard2(int currentPlayer, struct gameState* testGame, int card, int startCount, int totalCount){
+
+	int x;
+
+	for ( x = startCount; x < (totalCount + startCount); x++ ){
+
+		testGame->deck[currentPlayer][x] = card;
+	}
+
+
+	// int tCount=0;
+	// 	for(x = 0; x < testGame->deckCount[currentPlayer]; x++){
+	// 		printf("deck[%d] = [%d]\n", x, testGame->deck[currentPlayer][x]);
+	// 		if(testGame->deck[currentPlayer][x] == copper){
+
+	// 			printf("Card found: %d\n", x);
+	// 			tCount++;
+	// 		}
+	// 	}
+	// printf("Inside: Total Number of Treasure Cards in Deck %d\n", tCount);
 }

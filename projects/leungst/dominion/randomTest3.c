@@ -33,7 +33,7 @@ int main(){
 	int compareBeforeAfter = 0;
 
 	//Testing counters
-	int totalTests = 550;
+	int totalTests = 1;
 
 	//Expecting: Continuously drawing until two treasure cards are found
 	//States to check

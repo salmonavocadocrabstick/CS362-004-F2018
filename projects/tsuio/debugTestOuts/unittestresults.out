@@ -1,0 +1,114 @@
+-----------------------------------------------------
+Results for Dominion Function Unit Test:
+
+unittest1.c 
+
+Initiating Test game....
+Testing Case: Supply Count - default....
+-----------------------------------------------------
+Adventurer: 	0
+smithy: 	0
+great_hall: 	0
+minion: 	0
+K cards that are not currently used: 
+gardens: 	0
+ambassador: 	0
+
+
+Testing Case: filling up the supplies...
+Adventurer: 	10
+smithy: 	10
+great_hall: 	8
+minion: 	10
+K cards that are not currently used: 
+ambassador: 	-1
+
+
+gardens: 	-1
+File 'dominion.c'
+Lines executed:16.11% of 565
+Branches executed:15.83% of 417
+Taken at least once:12.71% of 417
+Calls executed:7.29% of 96
+Creating 'dominion.c.gcov'
+
+
+
+
+-----------------------------------------------------
+
+unittest2.c - fullDeckCount():
+
+Initiating Test game....
+Testing Case: Full deck count - default....
+-----------------------------------------------------
+Checking Copper: 7	|	Expected: 7
+Checking smithy: 3	|	Expected: 3
+
+
+Testing Case: Draw a few cards into hand ....
+-----------------------------------------------------
+Checking Copper: 7	|	Expected: 7
+Checking smithy: 3	|	Expected: 3
+
+
+Testing Case: Discard a few cards ....
+-----------------------------------------------------
+Checking Copper: 6	|	Expected: 6
+Checking smithy: 2	|	Expected: 2
+File 'dominion.c'
+Lines executed:19.47% of 565
+Branches executed:19.66% of 417
+Taken at least once:15.59% of 417
+Calls executed:7.29% of 96
+Creating 'dominion.c.gcov'
+
+
+
+
+-----------------------------------------------------
+
+unittest3.c - getCost(int):
+
+Initiating Test game....
+Testing GetCost()....
+-----------------------------------------------------
+Curse: 0	|	expected 0
+Estate: 2	|	expected 2
+Duchy: 5	|	expected 5
+Feast: 4	|	expected 4
+Smithy: 4	|	expected 4
+Gold: 6	|	expected 4
+File 'dominion.c'
+Lines executed:20.88% of 565
+Branches executed:26.38% of 417
+Taken at least once:17.03% of 417
+Calls executed:7.29% of 96
+Creating 'dominion.c.gcov'
+
+
+
+
+-----------------------------------------------------
+
+unittest4.c - getCost(int):
+
+Initiating Test game....
+Testing Case: Player turn changes....
+-----------------------------------------------------
+Set whoseTurn = 0; 	| player's turn: 0
+Set whoseTurn = -1; 	|player's turn: -1
+Set whoseTurn = 999; 	|player's turn: 999
+Set whoseTurn = 1; 	|player's turn: 1
+Set whoseTurn = 4; 	|player's turn: 4
+
+
+File 'dominion.c'
+Lines executed:21.95% of 565
+Branches executed:26.86% of 417
+Taken at least once:17.99% of 417
+Calls executed:7.29% of 96
+Creating 'dominion.c.gcov'
+
+
+

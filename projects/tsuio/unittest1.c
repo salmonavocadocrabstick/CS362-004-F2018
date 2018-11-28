@@ -61,7 +61,7 @@ int main(){
 
 	printf("K cards that are not currently used: \n");
 	printf("gardens: \t%d\n", test3);
-	printf("gardens: \t%d\n", test6);
+	printf("ambassador: \t%d\n", test6);
 	printf("\n\n");
 
 	//Copy base over to test game.
@@ -82,7 +82,7 @@ int main(){
 
 	printf("K cards that are not currently used: \n");
 	printf("gardens: \t%d\n", test3);
-	printf("gardens: \t%d\n", test6);
+	printf("ambassador: \t%d\n", test6);
 	printf("\n\n");
 
 

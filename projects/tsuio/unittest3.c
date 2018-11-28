@@ -1,3 +1,15 @@
+/***************************************************
+	OSU CS362 - Assignment 3
+	
+	Stephanie Leung			28th Oct 2018
+
+	Unittest3.c - getCost(int cardNumber)
+
+	
+	*returns cost of a card (supply/treasure/victory)
+
+*************************************************/
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
@@ -8,104 +20,34 @@
 #include "rngs.h"
 
 
-void testTorF(int result);
-
 int main(){
 
 
-	//Test target: int isGameOver(struct gameState *state)
+	//Test target: int getCost(int cardNumber)
 
-
-	//For Initializing game
-	int numPlayers = 2;
-	//int currentPlayer = 0;
-	int seed = 500;
-
-	//Base state
-	struct gameState s;
-	struct gameState *state = &s;
-	memset(state, 0, sizeof(struct gameState));
-
-	//Test state
-	struct gameState t;
-	struct gameState *testState = &t;
-	memset(state, 0, sizeof(struct gameState));
-
-	//Copy base over to test game.
-	memcpy(testState, state, sizeof(struct gameState));
-
-	int k[10] = {adventurer, smithy, great_hall, minion, mine, cutpurse,
-			sea_hag, tribute, province, council_room};
 
 	printf("Initiating Test game....\n");
 
  	//Initiate a game state for base
-	initializeGame(numPlayers, k, seed, state);
+	//initializeGame(numPlayers, k, seed, state);
 
+	int costCurse = getCost(curse);
+	int costEstate = getCost(estate);
+	int costDuchy = getCost(duchy);
+	int costFeast = getCost(feast);
+	int costSmithy = getCost(smithy);
+	int costGold = getCost(gold);
 
-	printf("Testing Case: Province Supply Count changes....\n");
+	printf("Testing GetCost()....\n");
 	printf("-----------------------------------------------------\n");
 
-	testState->supplyCount[province] = 0;
-	printf("Province Count: %d\t|\tGameover: ", testState->supplyCount[province]);
-	int test1 = isGameOver(testState);
+	printf("Curse: %d\t|\texpected %d\n", costCurse, 0);
+	printf("Estate: %d\t|\texpected %d\n", costEstate, 2);
+	printf("Duchy: %d\t|\texpected %d\n", costDuchy, 5);
+	printf("Feast: %d\t|\texpected %d\n", costFeast, 4);	
+	printf("Smithy: %d\t|\texpected %d\n", costSmithy, 4);
+	printf("Gold: %d\t|\texpected %d\n", costGold, 6);
 
-	testTorF(test1);
 
-	//Copy base over to test game.
-	memcpy(testState, state, sizeof(struct gameState));
-
-	testState->supplyCount[province] = 10;
-	printf("Province Count: %d\t|\tGameover: ", testState->supplyCount[province]);
-	int test2 = isGameOver(testState);
-
-	testTorF(test2);
-
-	printf("Testing Case: Other supply count changes....\n");
-	printf("-----------------------------------------------------\n");
-
-	testState->supplyCount[0] = 0;
-	testState->supplyCount[1] = 0;
-	testState->supplyCount[2] = 0;
-	printf("3 Kingdom cards counts set to 0\t|\tGameover: ");
-	int test3 = isGameOver(testState);
-
-	testTorF(test3);
-
-	//Copy base over to test game.
-	memcpy(testState, state, sizeof(struct gameState));
-
-	testState->supplyCount[0] = 0;
-	testState->supplyCount[1] = 0;
-	printf("2 Kingdom cards counts set to 0\t|\tGameover: ");
-	int test4 = isGameOver(testState);
-
-	testTorF(test4);
-
-	//Copy base over to test game.
-	memcpy(testState, state, sizeof(struct gameState));
-
-	testState->supplyCount[0] = 0;
-	testState->supplyCount[1] = 0;
-	testState->supplyCount[2] = 0;
-	testState->supplyCount[3] = 0;
-	printf("4 Kingdom cards counts set to 0\t|\tGameover: ");
-	int test5 = isGameOver(testState);
-
-	testTorF(test5);
-
-	printf("\n\n");
 	return 0;
-}
-
-void testTorF(int result){
-
-	if(result == 1){
-
-		printf("TRUE\n\n");
-	}
-	else if(result == 0){
-
-		printf("FALSE\n\n");
-	}
 }

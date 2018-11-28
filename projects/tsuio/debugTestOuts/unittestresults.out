@@ -1,34 +1,29 @@
------------------------------------------------------
-Results for Dominion Function Unit Test:
 
-unittest1.c 
+-----------------------------------------------------
+Results for Dominion Card Effects Unit Test:
+
+cardtest1.c - SMITHY:
 
 Initiating Test game....
-Testing Case: Supply Count - default....
+Testing Counters....
 -----------------------------------------------------
-Adventurer: 	0
-smithy: 	0
-great_hall: 	0
-minion: 	0
-K cards that are not currently used: 
-gardens: 	0
-ambassador: 	0
-
-
-Testing Case: filling up the supplies...
-Adventurer: 	10
-smithy: 	10
-great_hall: 	8
-minion: 	10
-K cards that are not currently used: 
-ambassador: 	-1
-
-
-gardens: 	-1
+	- Hand count = 4	|	expected = 7 
+	- Deck count = 5	|	expected = 2 
+	- Coin amount = 0	|	expected = 0 
+	- Discarded count = 0	|	expected = 1
+	- Numbuy = 0		|	expected = 0
+	- NumAction = 0		|	expected = 0
+Testing Deck Types.....
+-----------------------------------------------------
+- in Hands:	0 copy(s) of target card
+- in Deck:	2 copy(s) of target card
+- in Discarded:	0 copy(s) of target card
+- in played:	1 copy(s) of target card
+- Total target cards: 3
 File 'dominion.c'
-Lines executed:16.11% of 565
-Branches executed:15.83% of 417
-Taken at least once:12.71% of 417
+Lines executed:8.85% of 565
+Branches executed:11.27% of 417
+Taken at least once:4.32% of 417
 Calls executed:7.29% of 96
 Creating 'dominion.c.gcov'
 
@@ -37,77 +32,91 @@ Creating 'dominion.c.gcov'
 
 -----------------------------------------------------
 
-unittest2.c - fullDeckCount():
+
+cardtest2.c: COUNCIL_ROOM
 
 Initiating Test game....
-Testing Case: Full deck count - default....
+Testing Counters....
 -----------------------------------------------------
-Checking Copper: 7	|	Expected: 7
-Checking smithy: 3	|	Expected: 3
+	- Hand count = 8	|	expected = 9 
+	- Deck count = 1	|	expected = 0 
+	- Coin amount = 0	|	expected = 0 
+	- Discarded count = 0	|	expected = 1
+	- Numbuy = 1		|	expected = 1
+	- NumAction = 0		|	expected = 0
 
 
-Testing Case: Draw a few cards into hand ....
+Testing if other players drew a card.....
 -----------------------------------------------------
-Checking Copper: 7	|	Expected: 7
-Checking smithy: 3	|	Expected: 3
-
-
-Testing Case: Discard a few cards ....
------------------------------------------------------
-Checking Copper: 6	|	Expected: 6
-Checking smithy: 2	|	Expected: 2
+- Before target card, opponent Hand Count:	5|	 Now: 6
+- Before target card, opponent Deck Count:	5|	 Now: 4
 File 'dominion.c'
-Lines executed:19.47% of 565
-Branches executed:19.66% of 417
-Taken at least once:15.59% of 417
-Calls executed:7.29% of 96
+Lines executed:10.27% of 565
+Branches executed:12.71% of 417
+Taken at least once:6.00% of 417
+Calls executed:10.42% of 96
 Creating 'dominion.c.gcov'
 
 
 
-
 -----------------------------------------------------
 
-unittest3.c - getCost(int):
+
+cardtest3.c: GREAT_HALL
 
 Initiating Test game....
-Testing GetCost()....
+Testing Counters....
 -----------------------------------------------------
-Curse: 0	|	expected 0
-Estate: 2	|	expected 2
-Duchy: 5	|	expected 5
-Feast: 4	|	expected 4
-Smithy: 4	|	expected 4
-Gold: 6	|	expected 4
+	- Hand count = 5	|	expected = 5 
+	- Deck count = 4	|	expected = 4 
+	- Coin amount = 0	|	expected = 0 
+	- Discarded count = 0	|	expected = 1
+	- Numbuy = 0		|	expected = 0
+	- NumAction = 1		|	expected = 1
+	- Score = 2		|	expected = 3
+
+
+Testing when another copy is gained.....
+-----------------------------------------------------
+- Supply of Target: 0	|	expected 10
+Buycard: something went wrong in the function
+- Current score: = 2		|	expected = 4
+- Oponent score: = 3		|	expected = 4
+- Coin amount = 3		|	expected = -3 
 File 'dominion.c'
-Lines executed:20.88% of 565
-Branches executed:26.38% of 417
-Taken at least once:17.03% of 417
-Calls executed:7.29% of 96
+Lines executed:14.34% of 565
+Branches executed:17.51% of 417
+Taken at least once:9.11% of 417
+Calls executed:13.54% of 96
 Creating 'dominion.c.gcov'
 
 
 
-
 -----------------------------------------------------
 
-unittest4.c - getCost(int):
+
+cardtest4.c: ADVENTURER 
 
 Initiating Test game....
-Testing Case: Player turn changes....
+Testing Counters....
 -----------------------------------------------------
-Set whoseTurn = 0; 	| player's turn: 0
-Set whoseTurn = -1; 	|player's turn: -1
-Set whoseTurn = 999; 	|player's turn: 999
-Set whoseTurn = 1; 	|player's turn: 1
-Set whoseTurn = 4; 	|player's turn: 4
+	- Hand count now = 2	|	before = 0 
+	- Deck count now = 3	|	before = 10 
+	- Coin amount now = 0	|	before = 0 
+	- # of treasure now = 2	|	before = 0
+	- Discarded # now = 5	|	before = 0
+	- Numbuy = 0		|	expected = 0
+	- NumAction = 0		|	expected = 0
+	- Score = 0		|	before = 0
 
 
+Testing in case of 0 treasure card exists.....
+-----------------------------------------------------
 File 'dominion.c'
-Lines executed:21.95% of 565
-Branches executed:26.86% of 417
-Taken at least once:17.99% of 417
-Calls executed:7.29% of 96
+Lines executed:23.54% of 565
+Branches executed:29.02% of 417
+Taken at least once:17.51% of 417
+Calls executed:18.75% of 96
 Creating 'dominion.c.gcov'
 
 

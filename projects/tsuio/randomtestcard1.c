@@ -166,6 +166,10 @@ int checkSmithy(int currentPlayer, struct gameState* testGame, int handPos, int 
 	int old_deckCount = deckCount;
 	int old_handCount = count;
 	int new_deckCount, new_handCount;
+	int bonus = 0;
+
+	//target
+	int testTarget = smithy;
 
 	//First check functions that are used by test target
 	//For current target:
@@ -182,7 +186,9 @@ int checkSmithy(int currentPlayer, struct gameState* testGame, int handPos, int 
 		if(testGame->handCount[currentPlayer] == count ){
 			printf("\t...PASSED\n");
 			printf("Target card: \n");
-			smithy_effect_bug(currentPlayer, testGame, handPos);
+			//smithy_effect_bug(currentPlayer, testGame, handPos);
+			//smithy_bug(currentPlayer, testGame, handPos);
+			cardEffect(testTarget, 0, 0, 0, testGame, handPos, &bonus);
 
 			new_deckCount = testGame->deckCount[currentPlayer];
 			new_handCount = testGame->handCount[currentPlayer];

@@ -179,6 +179,10 @@ int checkTarget(int currentPlayer, struct gameState* testGame, int handPos, int 
 	int old_numActions = testGame->numActions;
 	int new_deckCount, new_handCount, new_numBuys, new_numActions;
 
+	//Target
+	int testTarget = council_room;
+	int bonus = 0;
+
 	//Set to TRUE if found
 	int bugFound = FALSE;
 
@@ -199,8 +203,9 @@ int checkTarget(int currentPlayer, struct gameState* testGame, int handPos, int 
 			printf("Target card: \n");
 
 			//Change target card here==================:
-			council_room_effect_bug(currentPlayer, testGame, handPos);
+			//council_room_effect_bug(currentPlayer, testGame, handPos);
 
+			cardEffect(testTarget, 0, 0, 0, testGame, handPos, &bonus);
 			//==========================================
 
 			//Check new variables here
@@ -216,12 +221,12 @@ int checkTarget(int currentPlayer, struct gameState* testGame, int handPos, int 
 				
 				bugFound = TRUE;
 			}
-			if(old_deckCount - 5 != new_deckCount){
+			if(old_deckCount - 4 != new_deckCount){
 				printf("\t...FAILED \n");
 				printf("\t\t...deck count %d\n", new_deckCount);
 				bugFound = TRUE;
 			}
-			if(old_handCount + 5 != new_handCount){	
+			if(old_handCount + 4 != new_handCount){	
 				printf("\t...FAILED \n");
 				printf("\t\t... hand count %d\n", new_handCount);
 				bugFound = TRUE;

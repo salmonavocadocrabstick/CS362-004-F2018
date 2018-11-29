@@ -1,0 +1,7502 @@
+Results of Test 3:
+Testing [ ADVENTURER ]  
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 2
+Total Number of Test Target Cards in Deck: 0
+Total Number of Treasure Cards in Deck 2
+Current Discard Count: 135
+Current Hand Count: 161
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 2
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 497
+Total Number of Test Target Cards in Deck: 299
+Total Number of Treasure Cards in Deck 198
+Current Discard Count: 290
+Current Hand Count: 351
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 497
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 187
+Total Number of Test Target Cards in Deck: 152
+Total Number of Treasure Cards in Deck 35
+Current Discard Count: 39
+Current Hand Count: 409
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 187
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 150
+Total Number of Test Target Cards in Deck: 83
+Total Number of Treasure Cards in Deck 67
+Current Discard Count: 402
+Current Hand Count: 125
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 150
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 394
+Total Number of Test Target Cards in Deck: 206
+Total Number of Treasure Cards in Deck 188
+Current Discard Count: 57
+Current Hand Count: 325
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 394
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 127
+Total Number of Test Target Cards in Deck: 81
+Total Number of Treasure Cards in Deck 46
+Current Discard Count: 66
+Current Hand Count: 36
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 127
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 485
+Total Number of Test Target Cards in Deck: 164
+Total Number of Treasure Cards in Deck 321
+Current Discard Count: 396
+Current Hand Count: 378
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 485
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 312
+Total Number of Test Target Cards in Deck: 114
+Total Number of Treasure Cards in Deck 198
+Current Discard Count: 318
+Current Hand Count: 240
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 312
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 75
+Total Number of Test Target Cards in Deck: 29
+Total Number of Treasure Cards in Deck 46
+Current Discard Count: 285
+Current Hand Count: 439
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 75
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 393
+Total Number of Test Target Cards in Deck: 137
+Total Number of Treasure Cards in Deck 256
+Current Discard Count: 63
+Current Hand Count: 188
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 393
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 166
+Total Number of Test Target Cards in Deck: 67
+Total Number of Treasure Cards in Deck 99
+Current Discard Count: 227
+Current Hand Count: 245
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 166
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 8
+Total Number of Test Target Cards in Deck: 1
+Total Number of Treasure Cards in Deck 7
+Current Discard Count: 329
+Current Hand Count: 25
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 8
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 401
+Total Number of Test Target Cards in Deck: 210
+Total Number of Treasure Cards in Deck 191
+Current Discard Count: 219
+Current Hand Count: 159
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 401
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 82
+Total Number of Test Target Cards in Deck: 34
+Total Number of Treasure Cards in Deck 48
+Current Discard Count: 387
+Current Hand Count: 4
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 82
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 485
+Total Number of Test Target Cards in Deck: 1
+Total Number of Treasure Cards in Deck 484
+Current Discard Count: 339
+Current Hand Count: 300
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 485
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 284
+Total Number of Test Target Cards in Deck: 127
+Total Number of Treasure Cards in Deck 157
+Current Discard Count: 402
+Current Hand Count: 483
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 284
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 127
+Total Number of Test Target Cards in Deck: 52
+Total Number of Treasure Cards in Deck 75
+Current Discard Count: 213
+Current Hand Count: 54
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 127
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 437
+Total Number of Test Target Cards in Deck: 93
+Total Number of Treasure Cards in Deck 344
+Current Discard Count: 461
+Current Hand Count: 309
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 437
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 257
+Total Number of Test Target Cards in Deck: 222
+Total Number of Treasure Cards in Deck 35
+Current Discard Count: 271
+Current Hand Count: 18
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 257
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 115
+Total Number of Test Target Cards in Deck: 14
+Total Number of Treasure Cards in Deck 101
+Current Discard Count: 220
+Current Hand Count: 86
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 115
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 151
+Total Number of Test Target Cards in Deck: 137
+Total Number of Treasure Cards in Deck 14
+Current Discard Count: 45
+Current Hand Count: 371
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 151
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 417
+Total Number of Test Target Cards in Deck: 247
+Total Number of Treasure Cards in Deck 170
+Current Discard Count: 56
+Current Hand Count: 322
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 417
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 17
+Total Number of Test Target Cards in Deck: 3
+Total Number of Treasure Cards in Deck 14
+Current Discard Count: 287
+Current Hand Count: 162
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 17
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 412
+Total Number of Test Target Cards in Deck: 125
+Total Number of Treasure Cards in Deck 287
+Current Discard Count: 447
+Current Hand Count: 358
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 412
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 32
+Total Number of Test Target Cards in Deck: 8
+Total Number of Treasure Cards in Deck 24
+Current Discard Count: 80
+Current Hand Count: 468
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 32
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 453
+Total Number of Test Target Cards in Deck: 133
+Total Number of Treasure Cards in Deck 320
+Current Discard Count: 124
+Current Hand Count: 130
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 453
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 241
+Total Number of Test Target Cards in Deck: 90
+Total Number of Treasure Cards in Deck 151
+Current Discard Count: 178
+Current Hand Count: 236
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 241
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 186
+Total Number of Test Target Cards in Deck: 142
+Total Number of Treasure Cards in Deck 44
+Current Discard Count: 179
+Current Hand Count: 397
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 186
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 140
+Total Number of Test Target Cards in Deck: 62
+Total Number of Treasure Cards in Deck 78
+Current Discard Count: 175
+Current Hand Count: 18
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 140
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 42
+Total Number of Test Target Cards in Deck: 31
+Total Number of Treasure Cards in Deck 11
+Current Discard Count: 370
+Current Hand Count: 255
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 42
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 284
+Total Number of Test Target Cards in Deck: 200
+Total Number of Treasure Cards in Deck 84
+Current Discard Count: 362
+Current Hand Count: 334
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 284
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 349
+Total Number of Test Target Cards in Deck: 50
+Total Number of Treasure Cards in Deck 299
+Current Discard Count: 43
+Current Hand Count: 135
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 349
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 43
+Total Number of Test Target Cards in Deck: 25
+Total Number of Treasure Cards in Deck 18
+Current Discard Count: 277
+Current Hand Count: 409
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 43
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 392
+Total Number of Test Target Cards in Deck: 261
+Total Number of Treasure Cards in Deck 131
+Current Discard Count: 400
+Current Hand Count: 245
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 392
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 168
+Total Number of Test Target Cards in Deck: 149
+Total Number of Treasure Cards in Deck 19
+Current Discard Count: 399
+Current Hand Count: 460
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 168
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 393
+Total Number of Test Target Cards in Deck: 136
+Total Number of Treasure Cards in Deck 257
+Current Discard Count: 109
+Current Hand Count: 135
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 393
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 482
+Total Number of Test Target Cards in Deck: 155
+Total Number of Treasure Cards in Deck 327
+Current Discard Count: 397
+Current Hand Count: 389
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 482
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 207
+Total Number of Test Target Cards in Deck: 158
+Total Number of Treasure Cards in Deck 49
+Current Discard Count: 494
+Current Hand Count: 73
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 207
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 458
+Total Number of Test Target Cards in Deck: 198
+Total Number of Treasure Cards in Deck 260
+Current Discard Count: 168
+Current Hand Count: 103
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 458
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 7
+Total Number of Test Target Cards in Deck: 3
+Total Number of Treasure Cards in Deck 4
+Current Discard Count: 337
+Current Hand Count: 430
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 7
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 185
+Total Number of Test Target Cards in Deck: 143
+Total Number of Treasure Cards in Deck 42
+Current Discard Count: 228
+Current Hand Count: 199
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 185
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 183
+Total Number of Test Target Cards in Deck: 92
+Total Number of Treasure Cards in Deck 91
+Current Discard Count: 91
+Current Hand Count: 268
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 183
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 375
+Total Number of Test Target Cards in Deck: 373
+Total Number of Treasure Cards in Deck 2
+Current Discard Count: 475
+Current Hand Count: 427
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 375
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 350
+Total Number of Test Target Cards in Deck: 58
+Total Number of Treasure Cards in Deck 292
+Current Discard Count: 438
+Current Hand Count: 377
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 350
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 238
+Total Number of Test Target Cards in Deck: 44
+Total Number of Treasure Cards in Deck 194
+Current Discard Count: 167
+Current Hand Count: 469
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 238
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 97
+Total Number of Test Target Cards in Deck: 64
+Total Number of Treasure Cards in Deck 33
+Current Discard Count: 300
+Current Hand Count: 15
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 97
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 362
+Total Number of Test Target Cards in Deck: 64
+Total Number of Treasure Cards in Deck 298
+Current Discard Count: 283
+Current Hand Count: 120
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 362
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 52
+Total Number of Test Target Cards in Deck: 29
+Total Number of Treasure Cards in Deck 23
+Current Discard Count: 305
+Current Hand Count: 25
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 52
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 68
+Total Number of Test Target Cards in Deck: 53
+Total Number of Treasure Cards in Deck 15
+Current Discard Count: 151
+Current Hand Count: 318
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 68
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 334
+Total Number of Test Target Cards in Deck: 135
+Total Number of Treasure Cards in Deck 199
+Current Discard Count: 93
+Current Hand Count: 183
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 334
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 268
+Total Number of Test Target Cards in Deck: 265
+Total Number of Treasure Cards in Deck 3
+Current Discard Count: 376
+Current Hand Count: 273
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 268
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 206
+Total Number of Test Target Cards in Deck: 163
+Total Number of Treasure Cards in Deck 43
+Current Discard Count: 196
+Current Hand Count: 473
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 206
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 282
+Total Number of Test Target Cards in Deck: 89
+Total Number of Treasure Cards in Deck 193
+Current Discard Count: 396
+Current Hand Count: 91
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 282
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 436
+Total Number of Test Target Cards in Deck: 58
+Total Number of Treasure Cards in Deck 378
+Current Discard Count: 130
+Current Hand Count: 13
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 436
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 420
+Total Number of Test Target Cards in Deck: 305
+Total Number of Treasure Cards in Deck 115
+Current Discard Count: 446
+Current Hand Count: 86
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 420
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 246
+Total Number of Test Target Cards in Deck: 85
+Total Number of Treasure Cards in Deck 161
+Current Discard Count: 102
+Current Hand Count: 54
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 246
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 421
+Total Number of Test Target Cards in Deck: 204
+Total Number of Treasure Cards in Deck 217
+Current Discard Count: 146
+Current Hand Count: 11
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 421
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 11
+Total Number of Test Target Cards in Deck: 3
+Total Number of Treasure Cards in Deck 8
+Current Discard Count: 353
+Current Hand Count: 239
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 11
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 93
+Total Number of Test Target Cards in Deck: 50
+Total Number of Treasure Cards in Deck 43
+Current Discard Count: 32
+Current Hand Count: 150
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 93
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 192
+Total Number of Test Target Cards in Deck: 4
+Total Number of Treasure Cards in Deck 188
+Current Discard Count: 427
+Current Hand Count: 91
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 192
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 161
+Total Number of Test Target Cards in Deck: 72
+Total Number of Treasure Cards in Deck 89
+Current Discard Count: 434
+Current Hand Count: 185
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 161
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 218
+Total Number of Test Target Cards in Deck: 7
+Total Number of Treasure Cards in Deck 211
+Current Discard Count: 438
+Current Hand Count: 9
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 218
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 221
+Total Number of Test Target Cards in Deck: 176
+Total Number of Treasure Cards in Deck 45
+Current Discard Count: 331
+Current Hand Count: 485
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 221
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 487
+Total Number of Test Target Cards in Deck: 481
+Total Number of Treasure Cards in Deck 6
+Current Discard Count: 92
+Current Hand Count: 315
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 487
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 108
+Total Number of Test Target Cards in Deck: 92
+Total Number of Treasure Cards in Deck 16
+Current Discard Count: 481
+Current Hand Count: 96
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 108
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 469
+Total Number of Test Target Cards in Deck: 366
+Total Number of Treasure Cards in Deck 103
+Current Discard Count: 426
+Current Hand Count: 371
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 469
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 323
+Total Number of Test Target Cards in Deck: 207
+Total Number of Treasure Cards in Deck 116
+Current Discard Count: 345
+Current Hand Count: 278
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 323
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 129
+Total Number of Test Target Cards in Deck: 40
+Total Number of Treasure Cards in Deck 89
+Current Discard Count: 145
+Current Hand Count: 216
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 129
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 230
+Total Number of Test Target Cards in Deck: 185
+Total Number of Treasure Cards in Deck 45
+Current Discard Count: 328
+Current Hand Count: 437
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 230
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 283
+Total Number of Test Target Cards in Deck: 59
+Total Number of Treasure Cards in Deck 224
+Current Discard Count: 197
+Current Hand Count: 473
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 283
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 308
+Total Number of Test Target Cards in Deck: 141
+Total Number of Treasure Cards in Deck 167
+Current Discard Count: 436
+Current Hand Count: 186
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 308
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 335
+Total Number of Test Target Cards in Deck: 25
+Total Number of Treasure Cards in Deck 310
+Current Discard Count: 428
+Current Hand Count: 98
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 335
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 110
+Total Number of Test Target Cards in Deck: 50
+Total Number of Treasure Cards in Deck 60
+Current Discard Count: 42
+Current Hand Count: 297
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 110
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 117
+Total Number of Test Target Cards in Deck: 49
+Total Number of Treasure Cards in Deck 68
+Current Discard Count: 438
+Current Hand Count: 461
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 117
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 316
+Total Number of Test Target Cards in Deck: 246
+Total Number of Treasure Cards in Deck 70
+Current Discard Count: 26
+Current Hand Count: 246
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 316
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 16
+Total Number of Test Target Cards in Deck: 8
+Total Number of Treasure Cards in Deck 8
+Current Discard Count: 432
+Current Hand Count: 343
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 16
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 497
+Total Number of Test Target Cards in Deck: 216
+Total Number of Treasure Cards in Deck 281
+Current Discard Count: 448
+Current Hand Count: 58
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 497
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 367
+Total Number of Test Target Cards in Deck: 366
+Total Number of Treasure Cards in Deck 1
+Current Discard Count: 310
+Current Hand Count: 160
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 367
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 205
+Total Number of Test Target Cards in Deck: 88
+Total Number of Treasure Cards in Deck 117
+Current Discard Count: 219
+Current Hand Count: 292
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 205
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 427
+Total Number of Test Target Cards in Deck: 413
+Total Number of Treasure Cards in Deck 14
+Current Discard Count: 152
+Current Hand Count: 351
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 427
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 186
+Total Number of Test Target Cards in Deck: 78
+Total Number of Treasure Cards in Deck 108
+Current Discard Count: 407
+Current Hand Count: 497
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 186
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 49
+Total Number of Test Target Cards in Deck: 48
+Total Number of Treasure Cards in Deck 1
+Current Discard Count: 13
+Current Hand Count: 299
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 49
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 488
+Total Number of Test Target Cards in Deck: 103
+Total Number of Treasure Cards in Deck 385
+Current Discard Count: 113
+Current Hand Count: 443
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 488
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 388
+Total Number of Test Target Cards in Deck: 55
+Total Number of Treasure Cards in Deck 333
+Current Discard Count: 118
+Current Hand Count: 310
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 388
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 73
+Total Number of Test Target Cards in Deck: 52
+Total Number of Treasure Cards in Deck 21
+Current Discard Count: 126
+Current Hand Count: 21
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 73
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 244
+Total Number of Test Target Cards in Deck: 223
+Total Number of Treasure Cards in Deck 21
+Current Discard Count: 167
+Current Hand Count: 284
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 244
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 490
+Total Number of Test Target Cards in Deck: 161
+Total Number of Treasure Cards in Deck 329
+Current Discard Count: 377
+Current Hand Count: 156
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 490
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 298
+Total Number of Test Target Cards in Deck: 158
+Total Number of Treasure Cards in Deck 140
+Current Discard Count: 74
+Current Hand Count: 93
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 298
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 293
+Total Number of Test Target Cards in Deck: 19
+Total Number of Treasure Cards in Deck 274
+Current Discard Count: 339
+Current Hand Count: 110
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 293
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 224
+Total Number of Test Target Cards in Deck: 182
+Total Number of Treasure Cards in Deck 42
+Current Discard Count: 422
+Current Hand Count: 81
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 224
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 420
+Total Number of Test Target Cards in Deck: 189
+Total Number of Treasure Cards in Deck 231
+Current Discard Count: 393
+Current Hand Count: 191
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 420
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 15
+Total Number of Test Target Cards in Deck: 12
+Total Number of Treasure Cards in Deck 3
+Current Discard Count: 352
+Current Hand Count: 342
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 15
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 385
+Total Number of Test Target Cards in Deck: 307
+Total Number of Treasure Cards in Deck 78
+Current Discard Count: 371
+Current Hand Count: 21
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 385
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 80
+Total Number of Test Target Cards in Deck: 5
+Total Number of Treasure Cards in Deck 75
+Current Discard Count: 393
+Current Hand Count: 199
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 80
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 356
+Total Number of Test Target Cards in Deck: 150
+Total Number of Treasure Cards in Deck 206
+Current Discard Count: 207
+Current Hand Count: 326
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 356
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 125
+Total Number of Test Target Cards in Deck: 70
+Total Number of Treasure Cards in Deck 55
+Current Discard Count: 21
+Current Hand Count: 246
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 125
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 413
+Total Number of Test Target Cards in Deck: 392
+Total Number of Treasure Cards in Deck 21
+Current Discard Count: 52
+Current Hand Count: 404
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 413
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 314
+Total Number of Test Target Cards in Deck: 51
+Total Number of Treasure Cards in Deck 263
+Current Discard Count: 212
+Current Hand Count: 398
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 314
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 356
+Total Number of Test Target Cards in Deck: 91
+Total Number of Treasure Cards in Deck 265
+Current Discard Count: 298
+Current Hand Count: 471
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 356
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 346
+Total Number of Test Target Cards in Deck: 294
+Total Number of Treasure Cards in Deck 52
+Current Discard Count: 248
+Current Hand Count: 332
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 346
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 278
+Total Number of Test Target Cards in Deck: 218
+Total Number of Treasure Cards in Deck 60
+Current Discard Count: 434
+Current Hand Count: 48
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 278
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 455
+Total Number of Test Target Cards in Deck: 101
+Total Number of Treasure Cards in Deck 354
+Current Discard Count: 387
+Current Hand Count: 213
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 455
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 412
+Total Number of Test Target Cards in Deck: 372
+Total Number of Treasure Cards in Deck 40
+Current Discard Count: 256
+Current Hand Count: 121
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 412
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 75
+Total Number of Test Target Cards in Deck: 67
+Total Number of Treasure Cards in Deck 8
+Current Discard Count: 184
+Current Hand Count: 80
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 75
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 410
+Total Number of Test Target Cards in Deck: 187
+Total Number of Treasure Cards in Deck 223
+Current Discard Count: 373
+Current Hand Count: 164
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 410
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 315
+Total Number of Test Target Cards in Deck: 12
+Total Number of Treasure Cards in Deck 303
+Current Discard Count: 291
+Current Hand Count: 210
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 315
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 41
+Total Number of Test Target Cards in Deck: 30
+Total Number of Treasure Cards in Deck 11
+Current Discard Count: 230
+Current Hand Count: 106
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 41
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 58
+Total Number of Test Target Cards in Deck: 20
+Total Number of Treasure Cards in Deck 38
+Current Discard Count: 139
+Current Hand Count: 53
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 58
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 412
+Total Number of Test Target Cards in Deck: 184
+Total Number of Treasure Cards in Deck 228
+Current Discard Count: 490
+Current Hand Count: 372
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 412
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 102
+Total Number of Test Target Cards in Deck: 28
+Total Number of Treasure Cards in Deck 74
+Current Discard Count: 91
+Current Hand Count: 434
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 102
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 489
+Total Number of Test Target Cards in Deck: 122
+Total Number of Treasure Cards in Deck 367
+Current Discard Count: 230
+Current Hand Count: 408
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 489
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 306
+Total Number of Test Target Cards in Deck: 28
+Total Number of Treasure Cards in Deck 278
+Current Discard Count: 49
+Current Hand Count: 136
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 306
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 398
+Total Number of Test Target Cards in Deck: 240
+Total Number of Treasure Cards in Deck 158
+Current Discard Count: 28
+Current Hand Count: 477
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 398
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 139
+Total Number of Test Target Cards in Deck: 15
+Total Number of Treasure Cards in Deck 124
+Current Discard Count: 59
+Current Hand Count: 270
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 139
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 266
+Total Number of Test Target Cards in Deck: 212
+Total Number of Treasure Cards in Deck 54
+Current Discard Count: 124
+Current Hand Count: 266
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 266
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 480
+Total Number of Test Target Cards in Deck: 393
+Total Number of Treasure Cards in Deck 87
+Current Discard Count: 431
+Current Hand Count: 314
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 480
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 278
+Total Number of Test Target Cards in Deck: 132
+Total Number of Treasure Cards in Deck 146
+Current Discard Count: 209
+Current Hand Count: 325
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 278
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 211
+Total Number of Test Target Cards in Deck: 6
+Total Number of Treasure Cards in Deck 205
+Current Discard Count: 434
+Current Hand Count: 468
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 211
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 43
+Total Number of Test Target Cards in Deck: 38
+Total Number of Treasure Cards in Deck 5
+Current Discard Count: 43
+Current Hand Count: 336
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 43
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 268
+Total Number of Test Target Cards in Deck: 207
+Total Number of Treasure Cards in Deck 61
+Current Discard Count: 64
+Current Hand Count: 229
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 268
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 322
+Total Number of Test Target Cards in Deck: 28
+Total Number of Treasure Cards in Deck 294
+Current Discard Count: 99
+Current Hand Count: 183
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 322
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 343
+Total Number of Test Target Cards in Deck: 39
+Total Number of Treasure Cards in Deck 304
+Current Discard Count: 31
+Current Hand Count: 426
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 343
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 187
+Total Number of Test Target Cards in Deck: 167
+Total Number of Treasure Cards in Deck 20
+Current Discard Count: 403
+Current Hand Count: 430
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 187
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 228
+Total Number of Test Target Cards in Deck: 94
+Total Number of Treasure Cards in Deck 134
+Current Discard Count: 280
+Current Hand Count: 368
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 228
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 86
+Total Number of Test Target Cards in Deck: 68
+Total Number of Treasure Cards in Deck 18
+Current Discard Count: 312
+Current Hand Count: 336
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 86
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 435
+Total Number of Test Target Cards in Deck: 418
+Total Number of Treasure Cards in Deck 17
+Current Discard Count: 285
+Current Hand Count: 89
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 435
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 471
+Total Number of Test Target Cards in Deck: 198
+Total Number of Treasure Cards in Deck 273
+Current Discard Count: 481
+Current Hand Count: 231
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 471
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 67
+Total Number of Test Target Cards in Deck: 57
+Total Number of Treasure Cards in Deck 10
+Current Discard Count: 70
+Current Hand Count: 217
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 67
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 286
+Total Number of Test Target Cards in Deck: 154
+Total Number of Treasure Cards in Deck 132
+Current Discard Count: 98
+Current Hand Count: 320
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 286
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 383
+Total Number of Test Target Cards in Deck: 142
+Total Number of Treasure Cards in Deck 241
+Current Discard Count: 243
+Current Hand Count: 478
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 383
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 377
+Total Number of Test Target Cards in Deck: 3
+Total Number of Treasure Cards in Deck 374
+Current Discard Count: 402
+Current Hand Count: 334
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 377
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 82
+Total Number of Test Target Cards in Deck: 63
+Total Number of Treasure Cards in Deck 19
+Current Discard Count: 120
+Current Hand Count: 144
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 82
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 259
+Total Number of Test Target Cards in Deck: 91
+Total Number of Treasure Cards in Deck 168
+Current Discard Count: 7
+Current Hand Count: 162
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 259
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 36
+Total Number of Test Target Cards in Deck: 7
+Total Number of Treasure Cards in Deck 29
+Current Discard Count: 250
+Current Hand Count: 417
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 36
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 34
+Total Number of Test Target Cards in Deck: 15
+Total Number of Treasure Cards in Deck 19
+Current Discard Count: 456
+Current Hand Count: 227
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 34
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 55
+Total Number of Test Target Cards in Deck: 37
+Total Number of Treasure Cards in Deck 18
+Current Discard Count: 61
+Current Hand Count: 16
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 55
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 283
+Total Number of Test Target Cards in Deck: 264
+Total Number of Treasure Cards in Deck 19
+Current Discard Count: 295
+Current Hand Count: 452
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 283
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 273
+Total Number of Test Target Cards in Deck: 77
+Total Number of Treasure Cards in Deck 196
+Current Discard Count: 242
+Current Hand Count: 259
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 273
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 200
+Total Number of Test Target Cards in Deck: 47
+Total Number of Treasure Cards in Deck 153
+Current Discard Count: 108
+Current Hand Count: 362
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 200
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 191
+Total Number of Test Target Cards in Deck: 186
+Total Number of Treasure Cards in Deck 5
+Current Discard Count: 426
+Current Hand Count: 280
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 191
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 209
+Total Number of Test Target Cards in Deck: 73
+Total Number of Treasure Cards in Deck 136
+Current Discard Count: 468
+Current Hand Count: 320
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 209
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 250
+Total Number of Test Target Cards in Deck: 97
+Total Number of Treasure Cards in Deck 153
+Current Discard Count: 132
+Current Hand Count: 491
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 250
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 412
+Total Number of Test Target Cards in Deck: 139
+Total Number of Treasure Cards in Deck 273
+Current Discard Count: 317
+Current Hand Count: 252
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 412
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 36
+Total Number of Test Target Cards in Deck: 5
+Total Number of Treasure Cards in Deck 31
+Current Discard Count: 261
+Current Hand Count: 91
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 36
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 267
+Total Number of Test Target Cards in Deck: 1
+Total Number of Treasure Cards in Deck 266
+Current Discard Count: 1
+Current Hand Count: 469
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 267
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 430
+Total Number of Test Target Cards in Deck: 194
+Total Number of Treasure Cards in Deck 236
+Current Discard Count: 115
+Current Hand Count: 155
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 430
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 113
+Total Number of Test Target Cards in Deck: 85
+Total Number of Treasure Cards in Deck 28
+Current Discard Count: 43
+Current Hand Count: 42
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 113
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 389
+Total Number of Test Target Cards in Deck: 89
+Total Number of Treasure Cards in Deck 300
+Current Discard Count: 219
+Current Hand Count: 22
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 389
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 335
+Total Number of Test Target Cards in Deck: 316
+Total Number of Treasure Cards in Deck 19
+Current Discard Count: 392
+Current Hand Count: 305
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 335
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 486
+Total Number of Test Target Cards in Deck: 51
+Total Number of Treasure Cards in Deck 435
+Current Discard Count: 227
+Current Hand Count: 375
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 486
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 329
+Total Number of Test Target Cards in Deck: 281
+Total Number of Treasure Cards in Deck 48
+Current Discard Count: 319
+Current Hand Count: 473
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 329
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 282
+Total Number of Test Target Cards in Deck: 122
+Total Number of Treasure Cards in Deck 160
+Current Discard Count: 32
+Current Hand Count: 255
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 282
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 405
+Total Number of Test Target Cards in Deck: 149
+Total Number of Treasure Cards in Deck 256
+Current Discard Count: 353
+Current Hand Count: 344
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 405
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 235
+Total Number of Test Target Cards in Deck: 126
+Total Number of Treasure Cards in Deck 109
+Current Discard Count: 371
+Current Hand Count: 119
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 235
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 217
+Total Number of Test Target Cards in Deck: 191
+Total Number of Treasure Cards in Deck 26
+Current Discard Count: 11
+Current Hand Count: 136
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 217
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 431
+Total Number of Test Target Cards in Deck: 290
+Total Number of Treasure Cards in Deck 141
+Current Discard Count: 232
+Current Hand Count: 20
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 431
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 260
+Total Number of Test Target Cards in Deck: 175
+Total Number of Treasure Cards in Deck 85
+Current Discard Count: 156
+Current Hand Count: 51
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 260
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 66
+Total Number of Test Target Cards in Deck: 16
+Total Number of Treasure Cards in Deck 50
+Current Discard Count: 152
+Current Hand Count: 425
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 66
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 276
+Total Number of Test Target Cards in Deck: 232
+Total Number of Treasure Cards in Deck 44
+Current Discard Count: 406
+Current Hand Count: 79
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 276
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 357
+Total Number of Test Target Cards in Deck: 69
+Total Number of Treasure Cards in Deck 288
+Current Discard Count: 447
+Current Hand Count: 465
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 357
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 499
+Total Number of Test Target Cards in Deck: 377
+Total Number of Treasure Cards in Deck 122
+Current Discard Count: 281
+Current Hand Count: 46
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 499
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 405
+Total Number of Test Target Cards in Deck: 359
+Total Number of Treasure Cards in Deck 46
+Current Discard Count: 461
+Current Hand Count: 50
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 405
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 499
+Total Number of Test Target Cards in Deck: 422
+Total Number of Treasure Cards in Deck 77
+Current Discard Count: 153
+Current Hand Count: 240
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 499
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 338
+Total Number of Test Target Cards in Deck: 121
+Total Number of Treasure Cards in Deck 217
+Current Discard Count: 59
+Current Hand Count: 63
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 338
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 175
+Total Number of Test Target Cards in Deck: 3
+Total Number of Treasure Cards in Deck 172
+Current Discard Count: 457
+Current Hand Count: 304
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 175
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 132
+Total Number of Test Target Cards in Deck: 84
+Total Number of Treasure Cards in Deck 48
+Current Discard Count: 84
+Current Hand Count: 260
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 132
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 415
+Total Number of Test Target Cards in Deck: 332
+Total Number of Treasure Cards in Deck 83
+Current Discard Count: 158
+Current Hand Count: 447
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 415
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 246
+Total Number of Test Target Cards in Deck: 163
+Total Number of Treasure Cards in Deck 83
+Current Discard Count: 362
+Current Hand Count: 75
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 246
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 105
+Total Number of Test Target Cards in Deck: 89
+Total Number of Treasure Cards in Deck 16
+Current Discard Count: 446
+Current Hand Count: 443
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 105
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 417
+Total Number of Test Target Cards in Deck: 66
+Total Number of Treasure Cards in Deck 351
+Current Discard Count: 329
+Current Hand Count: 176
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 417
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 204
+Total Number of Test Target Cards in Deck: 111
+Total Number of Treasure Cards in Deck 93
+Current Discard Count: 460
+Current Hand Count: 365
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 204
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 180
+Total Number of Test Target Cards in Deck: 26
+Total Number of Treasure Cards in Deck 154
+Current Discard Count: 372
+Current Hand Count: 72
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 180
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 202
+Total Number of Test Target Cards in Deck: 26
+Total Number of Treasure Cards in Deck 176
+Current Discard Count: 480
+Current Hand Count: 348
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 202
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 7
+Total Number of Test Target Cards in Deck: 3
+Total Number of Treasure Cards in Deck 4
+Current Discard Count: 363
+Current Hand Count: 411
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 7
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 358
+Total Number of Test Target Cards in Deck: 288
+Total Number of Treasure Cards in Deck 70
+Current Discard Count: 207
+Current Hand Count: 393
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 358
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 21
+Total Number of Test Target Cards in Deck: 4
+Total Number of Treasure Cards in Deck 17
+Current Discard Count: 69
+Current Hand Count: 376
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 21
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 334
+Total Number of Test Target Cards in Deck: 230
+Total Number of Treasure Cards in Deck 104
+Current Discard Count: 14
+Current Hand Count: 261
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 334
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 195
+Total Number of Test Target Cards in Deck: 77
+Total Number of Treasure Cards in Deck 118
+Current Discard Count: 410
+Current Hand Count: 8
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 195
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 356
+Total Number of Test Target Cards in Deck: 281
+Total Number of Treasure Cards in Deck 75
+Current Discard Count: 230
+Current Hand Count: 253
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 356
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 91
+Total Number of Test Target Cards in Deck: 47
+Total Number of Treasure Cards in Deck 44
+Current Discard Count: 480
+Current Hand Count: 220
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 91
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 39
+Total Number of Test Target Cards in Deck: 34
+Total Number of Treasure Cards in Deck 5
+Current Discard Count: 236
+Current Hand Count: 182
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 39
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 427
+Total Number of Test Target Cards in Deck: 150
+Total Number of Treasure Cards in Deck 277
+Current Discard Count: 253
+Current Hand Count: 377
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 427
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 58
+Total Number of Test Target Cards in Deck: 25
+Total Number of Treasure Cards in Deck 33
+Current Discard Count: 480
+Current Hand Count: 498
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 58
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 241
+Total Number of Test Target Cards in Deck: 63
+Total Number of Treasure Cards in Deck 178
+Current Discard Count: 446
+Current Hand Count: 79
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 241
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 474
+Total Number of Test Target Cards in Deck: 15
+Total Number of Treasure Cards in Deck 459
+Current Discard Count: 441
+Current Hand Count: 470
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 474
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 165
+Total Number of Test Target Cards in Deck: 22
+Total Number of Treasure Cards in Deck 143
+Current Discard Count: 203
+Current Hand Count: 346
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 165
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 143
+Total Number of Test Target Cards in Deck: 127
+Total Number of Treasure Cards in Deck 16
+Current Discard Count: 449
+Current Hand Count: 165
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 143
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 187
+Total Number of Test Target Cards in Deck: 139
+Total Number of Treasure Cards in Deck 48
+Current Discard Count: 285
+Current Hand Count: 42
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 187
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 104
+Total Number of Test Target Cards in Deck: 66
+Total Number of Treasure Cards in Deck 38
+Current Discard Count: 357
+Current Hand Count: 114
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 104
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 140
+Total Number of Test Target Cards in Deck: 105
+Total Number of Treasure Cards in Deck 35
+Current Discard Count: 441
+Current Hand Count: 64
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 140
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 98
+Total Number of Test Target Cards in Deck: 28
+Total Number of Treasure Cards in Deck 70
+Current Discard Count: 94
+Current Hand Count: 439
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 98
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 244
+Total Number of Test Target Cards in Deck: 136
+Total Number of Treasure Cards in Deck 108
+Current Discard Count: 249
+Current Hand Count: 77
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 244
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 365
+Total Number of Test Target Cards in Deck: 155
+Total Number of Treasure Cards in Deck 210
+Current Discard Count: 55
+Current Hand Count: 125
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 365
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 75
+Total Number of Test Target Cards in Deck: 50
+Total Number of Treasure Cards in Deck 25
+Current Discard Count: 165
+Current Hand Count: 410
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 75
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 450
+Total Number of Test Target Cards in Deck: 292
+Total Number of Treasure Cards in Deck 158
+Current Discard Count: 159
+Current Hand Count: 310
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 450
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 38
+Total Number of Test Target Cards in Deck: 20
+Total Number of Treasure Cards in Deck 18
+Current Discard Count: 14
+Current Hand Count: 152
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 38
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 313
+Total Number of Test Target Cards in Deck: 5
+Total Number of Treasure Cards in Deck 308
+Current Discard Count: 19
+Current Hand Count: 77
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 313
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 217
+Total Number of Test Target Cards in Deck: 199
+Total Number of Treasure Cards in Deck 18
+Current Discard Count: 446
+Current Hand Count: 133
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 217
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 154
+Total Number of Test Target Cards in Deck: 62
+Total Number of Treasure Cards in Deck 92
+Current Discard Count: 422
+Current Hand Count: 84
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 154
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 470
+Total Number of Test Target Cards in Deck: 401
+Total Number of Treasure Cards in Deck 69
+Current Discard Count: 423
+Current Hand Count: 92
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 470
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 336
+Total Number of Test Target Cards in Deck: 329
+Total Number of Treasure Cards in Deck 7
+Current Discard Count: 77
+Current Hand Count: 428
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 336
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 120
+Total Number of Test Target Cards in Deck: 29
+Total Number of Treasure Cards in Deck 91
+Current Discard Count: 429
+Current Hand Count: 313
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 120
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 82
+Total Number of Test Target Cards in Deck: 30
+Total Number of Treasure Cards in Deck 52
+Current Discard Count: 89
+Current Hand Count: 394
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 82
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 84
+Total Number of Test Target Cards in Deck: 53
+Total Number of Treasure Cards in Deck 31
+Current Discard Count: 404
+Current Hand Count: 191
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 84
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 346
+Total Number of Test Target Cards in Deck: 305
+Total Number of Treasure Cards in Deck 41
+Current Discard Count: 223
+Current Hand Count: 48
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 346
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 144
+Total Number of Test Target Cards in Deck: 45
+Total Number of Treasure Cards in Deck 99
+Current Discard Count: 110
+Current Hand Count: 245
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 144
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 7
+Total Number of Test Target Cards in Deck: 3
+Total Number of Treasure Cards in Deck 4
+Current Discard Count: 117
+Current Hand Count: 355
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 7
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 107
+Total Number of Test Target Cards in Deck: 84
+Total Number of Treasure Cards in Deck 23
+Current Discard Count: 452
+Current Hand Count: 98
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 107
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 153
+Total Number of Test Target Cards in Deck: 12
+Total Number of Treasure Cards in Deck 141
+Current Discard Count: 331
+Current Hand Count: 354
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 153
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 234
+Total Number of Test Target Cards in Deck: 76
+Total Number of Treasure Cards in Deck 158
+Current Discard Count: 131
+Current Hand Count: 23
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 234
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 92
+Total Number of Test Target Cards in Deck: 90
+Total Number of Treasure Cards in Deck 2
+Current Discard Count: 65
+Current Hand Count: 290
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 92
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 223
+Total Number of Test Target Cards in Deck: 29
+Total Number of Treasure Cards in Deck 194
+Current Discard Count: 255
+Current Hand Count: 216
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 223
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 40
+Total Number of Test Target Cards in Deck: 12
+Total Number of Treasure Cards in Deck 28
+Current Discard Count: 120
+Current Hand Count: 305
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 40
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 88
+Total Number of Test Target Cards in Deck: 79
+Total Number of Treasure Cards in Deck 9
+Current Discard Count: 273
+Current Hand Count: 225
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 88
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 381
+Total Number of Test Target Cards in Deck: 313
+Total Number of Treasure Cards in Deck 68
+Current Discard Count: 55
+Current Hand Count: 355
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 381
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 348
+Total Number of Test Target Cards in Deck: 100
+Total Number of Treasure Cards in Deck 248
+Current Discard Count: 260
+Current Hand Count: 47
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 348
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 444
+Total Number of Test Target Cards in Deck: 306
+Total Number of Treasure Cards in Deck 138
+Current Discard Count: 130
+Current Hand Count: 66
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 444
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 420
+Total Number of Test Target Cards in Deck: 135
+Total Number of Treasure Cards in Deck 285
+Current Discard Count: 66
+Current Hand Count: 109
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 420
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 224
+Total Number of Test Target Cards in Deck: 165
+Total Number of Treasure Cards in Deck 59
+Current Discard Count: 441
+Current Hand Count: 495
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 224
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 458
+Total Number of Test Target Cards in Deck: 385
+Total Number of Treasure Cards in Deck 73
+Current Discard Count: 422
+Current Hand Count: 256
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 458
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 461
+Total Number of Test Target Cards in Deck: 403
+Total Number of Treasure Cards in Deck 58
+Current Discard Count: 352
+Current Hand Count: 292
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 461
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 388
+Total Number of Test Target Cards in Deck: 262
+Total Number of Treasure Cards in Deck 126
+Current Discard Count: 280
+Current Hand Count: 429
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 388
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 314
+Total Number of Test Target Cards in Deck: 312
+Total Number of Treasure Cards in Deck 2
+Current Discard Count: 124
+Current Hand Count: 305
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 314
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 317
+Total Number of Test Target Cards in Deck: 209
+Total Number of Treasure Cards in Deck 108
+Current Discard Count: 254
+Current Hand Count: 407
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 317
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 93
+Total Number of Test Target Cards in Deck: 90
+Total Number of Treasure Cards in Deck 3
+Current Discard Count: 137
+Current Hand Count: 126
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 93
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 127
+Total Number of Test Target Cards in Deck: 25
+Total Number of Treasure Cards in Deck 102
+Current Discard Count: 97
+Current Hand Count: 5
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 127
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 32
+Total Number of Test Target Cards in Deck: 21
+Total Number of Treasure Cards in Deck 11
+Current Discard Count: 166
+Current Hand Count: 387
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 32
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 467
+Total Number of Test Target Cards in Deck: 148
+Total Number of Treasure Cards in Deck 319
+Current Discard Count: 206
+Current Hand Count: 214
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 467
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 284
+Total Number of Test Target Cards in Deck: 13
+Total Number of Treasure Cards in Deck 271
+Current Discard Count: 383
+Current Hand Count: 82
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 284
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 313
+Total Number of Test Target Cards in Deck: 186
+Total Number of Treasure Cards in Deck 127
+Current Discard Count: 190
+Current Hand Count: 308
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 313
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 411
+Total Number of Test Target Cards in Deck: 96
+Total Number of Treasure Cards in Deck 315
+Current Discard Count: 75
+Current Hand Count: 100
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 411
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 441
+Total Number of Test Target Cards in Deck: 200
+Total Number of Treasure Cards in Deck 241
+Current Discard Count: 92
+Current Hand Count: 467
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 441
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 226
+Total Number of Test Target Cards in Deck: 197
+Total Number of Treasure Cards in Deck 29
+Current Discard Count: 406
+Current Hand Count: 99
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 226
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 264
+Total Number of Test Target Cards in Deck: 215
+Total Number of Treasure Cards in Deck 49
+Current Discard Count: 202
+Current Hand Count: 141
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 264
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 104
+Total Number of Test Target Cards in Deck: 86
+Total Number of Treasure Cards in Deck 18
+Current Discard Count: 477
+Current Hand Count: 144
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 104
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 293
+Total Number of Test Target Cards in Deck: 189
+Total Number of Treasure Cards in Deck 104
+Current Discard Count: 215
+Current Hand Count: 2
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 293
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 98
+Total Number of Test Target Cards in Deck: 12
+Total Number of Treasure Cards in Deck 86
+Current Discard Count: 411
+Current Hand Count: 55
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 98
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 227
+Total Number of Test Target Cards in Deck: 67
+Total Number of Treasure Cards in Deck 160
+Current Discard Count: 435
+Current Hand Count: 440
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 227
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 297
+Total Number of Test Target Cards in Deck: 70
+Total Number of Treasure Cards in Deck 227
+Current Discard Count: 64
+Current Hand Count: 432
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 297
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 26
+Total Number of Test Target Cards in Deck: 13
+Total Number of Treasure Cards in Deck 13
+Current Discard Count: 494
+Current Hand Count: 46
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 26
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 184
+Total Number of Test Target Cards in Deck: 85
+Total Number of Treasure Cards in Deck 99
+Current Discard Count: 195
+Current Hand Count: 434
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 184
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 425
+Total Number of Test Target Cards in Deck: 80
+Total Number of Treasure Cards in Deck 345
+Current Discard Count: 170
+Current Hand Count: 129
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 425
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 37
+Total Number of Test Target Cards in Deck: 23
+Total Number of Treasure Cards in Deck 14
+Current Discard Count: 481
+Current Hand Count: 88
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 37
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 167
+Total Number of Test Target Cards in Deck: 150
+Total Number of Treasure Cards in Deck 17
+Current Discard Count: 258
+Current Hand Count: 132
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 167
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 94
+Total Number of Test Target Cards in Deck: 70
+Total Number of Treasure Cards in Deck 24
+Current Discard Count: 434
+Current Hand Count: 125
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 94
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 390
+Total Number of Test Target Cards in Deck: 268
+Total Number of Treasure Cards in Deck 122
+Current Discard Count: 72
+Current Hand Count: 327
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 390
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 333
+Total Number of Test Target Cards in Deck: 114
+Total Number of Treasure Cards in Deck 219
+Current Discard Count: 388
+Current Hand Count: 126
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 333
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 8
+Total Number of Test Target Cards in Deck: 1
+Total Number of Treasure Cards in Deck 7
+Current Discard Count: 414
+Current Hand Count: 6
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 8
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 99
+Total Number of Test Target Cards in Deck: 79
+Total Number of Treasure Cards in Deck 20
+Current Discard Count: 361
+Current Hand Count: 295
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 99
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 398
+Total Number of Test Target Cards in Deck: 92
+Total Number of Treasure Cards in Deck 306
+Current Discard Count: 188
+Current Hand Count: 209
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 398
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 171
+Total Number of Test Target Cards in Deck: 124
+Total Number of Treasure Cards in Deck 47
+Current Discard Count: 268
+Current Hand Count: 302
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 171
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 202
+Total Number of Test Target Cards in Deck: 107
+Total Number of Treasure Cards in Deck 95
+Current Discard Count: 104
+Current Hand Count: 125
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 202
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 495
+Total Number of Test Target Cards in Deck: 195
+Total Number of Treasure Cards in Deck 300
+Current Discard Count: 405
+Current Hand Count: 417
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 495
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 42
+Total Number of Test Target Cards in Deck: 29
+Total Number of Treasure Cards in Deck 13
+Current Discard Count: 163
+Current Hand Count: 246
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 42
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 93
+Total Number of Test Target Cards in Deck: 78
+Total Number of Treasure Cards in Deck 15
+Current Discard Count: 83
+Current Hand Count: 54
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 93
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 464
+Total Number of Test Target Cards in Deck: 305
+Total Number of Treasure Cards in Deck 159
+Current Discard Count: 461
+Current Hand Count: 319
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 464
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 411
+Total Number of Test Target Cards in Deck: 0
+Total Number of Treasure Cards in Deck 411
+Current Discard Count: 363
+Current Hand Count: 248
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 411
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 148
+Total Number of Test Target Cards in Deck: 89
+Total Number of Treasure Cards in Deck 59
+Current Discard Count: 480
+Current Hand Count: 112
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 148
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 450
+Total Number of Test Target Cards in Deck: 111
+Total Number of Treasure Cards in Deck 339
+Current Discard Count: 474
+Current Hand Count: 122
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 450
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 350
+Total Number of Test Target Cards in Deck: 329
+Total Number of Treasure Cards in Deck 21
+Current Discard Count: 102
+Current Hand Count: 104
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 350
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 258
+Total Number of Test Target Cards in Deck: 12
+Total Number of Treasure Cards in Deck 246
+Current Discard Count: 19
+Current Hand Count: 227
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 258
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 402
+Total Number of Test Target Cards in Deck: 340
+Total Number of Treasure Cards in Deck 62
+Current Discard Count: 196
+Current Hand Count: 461
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 402
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 429
+Total Number of Test Target Cards in Deck: 381
+Total Number of Treasure Cards in Deck 48
+Current Discard Count: 98
+Current Hand Count: 4
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 429
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 131
+Total Number of Test Target Cards in Deck: 15
+Total Number of Treasure Cards in Deck 116
+Current Discard Count: 227
+Current Hand Count: 9
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 131
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 304
+Total Number of Test Target Cards in Deck: 79
+Total Number of Treasure Cards in Deck 225
+Current Discard Count: 372
+Current Hand Count: 23
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 304
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 157
+Total Number of Test Target Cards in Deck: 122
+Total Number of Treasure Cards in Deck 35
+Current Discard Count: 314
+Current Hand Count: 43
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 157
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 333
+Total Number of Test Target Cards in Deck: 20
+Total Number of Treasure Cards in Deck 313
+Current Discard Count: 58
+Current Hand Count: 106
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 333
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 236
+Total Number of Test Target Cards in Deck: 231
+Total Number of Treasure Cards in Deck 5
+Current Discard Count: 124
+Current Hand Count: 416
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 236
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 348
+Total Number of Test Target Cards in Deck: 327
+Total Number of Treasure Cards in Deck 21
+Current Discard Count: 182
+Current Hand Count: 101
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 348
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 62
+Total Number of Test Target Cards in Deck: 16
+Total Number of Treasure Cards in Deck 46
+Current Discard Count: 294
+Current Hand Count: 479
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 62
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 337
+Total Number of Test Target Cards in Deck: 7
+Total Number of Treasure Cards in Deck 330
+Current Discard Count: 155
+Current Hand Count: 113
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 337
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 494
+Total Number of Test Target Cards in Deck: 104
+Total Number of Treasure Cards in Deck 390
+Current Discard Count: 237
+Current Hand Count: 498
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 494
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 128
+Total Number of Test Target Cards in Deck: 120
+Total Number of Treasure Cards in Deck 8
+Current Discard Count: 197
+Current Hand Count: 71
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 128
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 476
+Total Number of Test Target Cards in Deck: 227
+Total Number of Treasure Cards in Deck 249
+Current Discard Count: 139
+Current Hand Count: 84
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 476
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 371
+Total Number of Test Target Cards in Deck: 93
+Total Number of Treasure Cards in Deck 278
+Current Discard Count: 179
+Current Hand Count: 390
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 371
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 360
+Total Number of Test Target Cards in Deck: 150
+Total Number of Treasure Cards in Deck 210
+Current Discard Count: 267
+Current Hand Count: 351
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 360
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 425
+Total Number of Test Target Cards in Deck: 266
+Total Number of Treasure Cards in Deck 159
+Current Discard Count: 83
+Current Hand Count: 60
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 425
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 296
+Total Number of Test Target Cards in Deck: 295
+Total Number of Treasure Cards in Deck 1
+Current Discard Count: 279
+Current Hand Count: 320
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 296
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 169
+Total Number of Test Target Cards in Deck: 110
+Total Number of Treasure Cards in Deck 59
+Current Discard Count: 122
+Current Hand Count: 86
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 169
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 196
+Total Number of Test Target Cards in Deck: 195
+Total Number of Treasure Cards in Deck 1
+Current Discard Count: 309
+Current Hand Count: 464
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 196
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 123
+Total Number of Test Target Cards in Deck: 74
+Total Number of Treasure Cards in Deck 49
+Current Discard Count: 70
+Current Hand Count: 105
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 123
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 224
+Total Number of Test Target Cards in Deck: 107
+Total Number of Treasure Cards in Deck 117
+Current Discard Count: 253
+Current Hand Count: 495
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 224
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 356
+Total Number of Test Target Cards in Deck: 264
+Total Number of Treasure Cards in Deck 92
+Current Discard Count: 422
+Current Hand Count: 281
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 356
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 17
+Total Number of Test Target Cards in Deck: 7
+Total Number of Treasure Cards in Deck 10
+Current Discard Count: 302
+Current Hand Count: 365
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 17
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 81
+Total Number of Test Target Cards in Deck: 62
+Total Number of Treasure Cards in Deck 19
+Current Discard Count: 131
+Current Hand Count: 43
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 81
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 26
+Total Number of Test Target Cards in Deck: 17
+Total Number of Treasure Cards in Deck 9
+Current Discard Count: 225
+Current Hand Count: 337
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 26
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 145
+Total Number of Test Target Cards in Deck: 112
+Total Number of Treasure Cards in Deck 33
+Current Discard Count: 285
+Current Hand Count: 360
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 145
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 207
+Total Number of Test Target Cards in Deck: 57
+Total Number of Treasure Cards in Deck 150
+Current Discard Count: 111
+Current Hand Count: 134
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 207
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 48
+Total Number of Test Target Cards in Deck: 3
+Total Number of Treasure Cards in Deck 45
+Current Discard Count: 191
+Current Hand Count: 38
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 48
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 346
+Total Number of Test Target Cards in Deck: 140
+Total Number of Treasure Cards in Deck 206
+Current Discard Count: 293
+Current Hand Count: 12
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 346
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 350
+Total Number of Test Target Cards in Deck: 27
+Total Number of Treasure Cards in Deck 323
+Current Discard Count: 173
+Current Hand Count: 33
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 350
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 262
+Total Number of Test Target Cards in Deck: 17
+Total Number of Treasure Cards in Deck 245
+Current Discard Count: 152
+Current Hand Count: 11
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 262
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 193
+Total Number of Test Target Cards in Deck: 172
+Total Number of Treasure Cards in Deck 21
+Current Discard Count: 23
+Current Hand Count: 483
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 193
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 54
+Total Number of Test Target Cards in Deck: 24
+Total Number of Treasure Cards in Deck 30
+Current Discard Count: 307
+Current Hand Count: 340
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 54
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 491
+Total Number of Test Target Cards in Deck: 101
+Total Number of Treasure Cards in Deck 390
+Current Discard Count: 127
+Current Hand Count: 80
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 491
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 251
+Total Number of Test Target Cards in Deck: 65
+Total Number of Treasure Cards in Deck 186
+Current Discard Count: 178
+Current Hand Count: 101
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 251
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 279
+Total Number of Test Target Cards in Deck: 241
+Total Number of Treasure Cards in Deck 38
+Current Discard Count: 98
+Current Hand Count: 88
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 279
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 323
+Total Number of Test Target Cards in Deck: 50
+Total Number of Treasure Cards in Deck 273
+Current Discard Count: 333
+Current Hand Count: 148
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 323
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 162
+Total Number of Test Target Cards in Deck: 76
+Total Number of Treasure Cards in Deck 86
+Current Discard Count: 292
+Current Hand Count: 458
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 162
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 114
+Total Number of Test Target Cards in Deck: 58
+Total Number of Treasure Cards in Deck 56
+Current Discard Count: 25
+Current Hand Count: 149
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 114
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 68
+Total Number of Test Target Cards in Deck: 37
+Total Number of Treasure Cards in Deck 31
+Current Discard Count: 443
+Current Hand Count: 401
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 68
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 424
+Total Number of Test Target Cards in Deck: 142
+Total Number of Treasure Cards in Deck 282
+Current Discard Count: 351
+Current Hand Count: 468
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 424
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 158
+Total Number of Test Target Cards in Deck: 106
+Total Number of Treasure Cards in Deck 52
+Current Discard Count: 143
+Current Hand Count: 265
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 158
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 308
+Total Number of Test Target Cards in Deck: 80
+Total Number of Treasure Cards in Deck 228
+Current Discard Count: 415
+Current Hand Count: 151
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 308
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 137
+Total Number of Test Target Cards in Deck: 131
+Total Number of Treasure Cards in Deck 6
+Current Discard Count: 224
+Current Hand Count: 148
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 137
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 64
+Total Number of Test Target Cards in Deck: 35
+Total Number of Treasure Cards in Deck 29
+Current Discard Count: 107
+Current Hand Count: 345
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 64
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 145
+Total Number of Test Target Cards in Deck: 8
+Total Number of Treasure Cards in Deck 137
+Current Discard Count: 436
+Current Hand Count: 119
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 145
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 415
+Total Number of Test Target Cards in Deck: 355
+Total Number of Treasure Cards in Deck 60
+Current Discard Count: 136
+Current Hand Count: 163
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 415
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 235
+Total Number of Test Target Cards in Deck: 120
+Total Number of Treasure Cards in Deck 115
+Current Discard Count: 246
+Current Hand Count: 425
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 235
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 78
+Total Number of Test Target Cards in Deck: 53
+Total Number of Treasure Cards in Deck 25
+Current Discard Count: 352
+Current Hand Count: 395
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 78
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 239
+Total Number of Test Target Cards in Deck: 49
+Total Number of Treasure Cards in Deck 190
+Current Discard Count: 322
+Current Hand Count: 312
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 239
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 202
+Total Number of Test Target Cards in Deck: 146
+Total Number of Treasure Cards in Deck 56
+Current Discard Count: 435
+Current Hand Count: 321
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 202
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 260
+Total Number of Test Target Cards in Deck: 146
+Total Number of Treasure Cards in Deck 114
+Current Discard Count: 330
+Current Hand Count: 484
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 260
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 268
+Total Number of Test Target Cards in Deck: 138
+Total Number of Treasure Cards in Deck 130
+Current Discard Count: 12
+Current Hand Count: 125
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 268
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 451
+Total Number of Test Target Cards in Deck: 158
+Total Number of Treasure Cards in Deck 293
+Current Discard Count: 47
+Current Hand Count: 317
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 451
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 481
+Total Number of Test Target Cards in Deck: 177
+Total Number of Treasure Cards in Deck 304
+Current Discard Count: 151
+Current Hand Count: 270
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 481
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 283
+Total Number of Test Target Cards in Deck: 159
+Total Number of Treasure Cards in Deck 124
+Current Discard Count: 162
+Current Hand Count: 337
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 283
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 449
+Total Number of Test Target Cards in Deck: 149
+Total Number of Treasure Cards in Deck 300
+Current Discard Count: 442
+Current Hand Count: 473
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 449
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 314
+Total Number of Test Target Cards in Deck: 70
+Total Number of Treasure Cards in Deck 244
+Current Discard Count: 240
+Current Hand Count: 152
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 314
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 242
+Total Number of Test Target Cards in Deck: 222
+Total Number of Treasure Cards in Deck 20
+Current Discard Count: 432
+Current Hand Count: 11
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 242
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 93
+Total Number of Test Target Cards in Deck: 57
+Total Number of Treasure Cards in Deck 36
+Current Discard Count: 368
+Current Hand Count: 21
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 93
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 148
+Total Number of Test Target Cards in Deck: 12
+Total Number of Treasure Cards in Deck 136
+Current Discard Count: 204
+Current Hand Count: 33
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 148
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 328
+Total Number of Test Target Cards in Deck: 158
+Total Number of Treasure Cards in Deck 170
+Current Discard Count: 83
+Current Hand Count: 13
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 328
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 431
+Total Number of Test Target Cards in Deck: 233
+Total Number of Treasure Cards in Deck 198
+Current Discard Count: 259
+Current Hand Count: 272
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 431
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 391
+Total Number of Test Target Cards in Deck: 237
+Total Number of Treasure Cards in Deck 154
+Current Discard Count: 302
+Current Hand Count: 473
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 391
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 454
+Total Number of Test Target Cards in Deck: 285
+Total Number of Treasure Cards in Deck 169
+Current Discard Count: 307
+Current Hand Count: 339
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 454
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 323
+Total Number of Test Target Cards in Deck: 125
+Total Number of Treasure Cards in Deck 198
+Current Discard Count: 247
+Current Hand Count: 485
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 323
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 53
+Total Number of Test Target Cards in Deck: 35
+Total Number of Treasure Cards in Deck 18
+Current Discard Count: 219
+Current Hand Count: 328
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 53
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 305
+Total Number of Test Target Cards in Deck: 27
+Total Number of Treasure Cards in Deck 278
+Current Discard Count: 155
+Current Hand Count: 357
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 305
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 148
+Total Number of Test Target Cards in Deck: 143
+Total Number of Treasure Cards in Deck 5
+Current Discard Count: 14
+Current Hand Count: 143
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 148
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 7
+Total Number of Test Target Cards in Deck: 5
+Total Number of Treasure Cards in Deck 2
+Current Discard Count: 434
+Current Hand Count: 210
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 7
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 215
+Total Number of Test Target Cards in Deck: 104
+Total Number of Treasure Cards in Deck 111
+Current Discard Count: 236
+Current Hand Count: 100
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 215
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 35
+Total Number of Test Target Cards in Deck: 30
+Total Number of Treasure Cards in Deck 5
+Current Discard Count: 405
+Current Hand Count: 112
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 35
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 456
+Total Number of Test Target Cards in Deck: 365
+Total Number of Treasure Cards in Deck 91
+Current Discard Count: 411
+Current Hand Count: 195
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 456
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 316
+Total Number of Test Target Cards in Deck: 106
+Total Number of Treasure Cards in Deck 210
+Current Discard Count: 162
+Current Hand Count: 292
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 316
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 432
+Total Number of Test Target Cards in Deck: 323
+Total Number of Treasure Cards in Deck 109
+Current Discard Count: 173
+Current Hand Count: 458
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 432
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 72
+Total Number of Test Target Cards in Deck: 9
+Total Number of Treasure Cards in Deck 63
+Current Discard Count: 110
+Current Hand Count: 337
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 72
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 344
+Total Number of Test Target Cards in Deck: 22
+Total Number of Treasure Cards in Deck 322
+Current Discard Count: 448
+Current Hand Count: 300
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 344
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 203
+Total Number of Test Target Cards in Deck: 42
+Total Number of Treasure Cards in Deck 161
+Current Discard Count: 75
+Current Hand Count: 360
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 203
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 5
+Total Number of Test Target Cards in Deck: 0
+Total Number of Treasure Cards in Deck 5
+Current Discard Count: 398
+Current Hand Count: 64
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 5
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 175
+Total Number of Test Target Cards in Deck: 42
+Total Number of Treasure Cards in Deck 133
+Current Discard Count: 212
+Current Hand Count: 473
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 175
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 441
+Total Number of Test Target Cards in Deck: 178
+Total Number of Treasure Cards in Deck 263
+Current Discard Count: 346
+Current Hand Count: 51
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 441
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 364
+Total Number of Test Target Cards in Deck: 35
+Total Number of Treasure Cards in Deck 329
+Current Discard Count: 417
+Current Hand Count: 43
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 364
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 489
+Total Number of Test Target Cards in Deck: 167
+Total Number of Treasure Cards in Deck 322
+Current Discard Count: 103
+Current Hand Count: 69
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 489
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 431
+Total Number of Test Target Cards in Deck: 136
+Total Number of Treasure Cards in Deck 295
+Current Discard Count: 223
+Current Hand Count: 416
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 431
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 221
+Total Number of Test Target Cards in Deck: 67
+Total Number of Treasure Cards in Deck 154
+Current Discard Count: 147
+Current Hand Count: 136
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 221
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 197
+Total Number of Test Target Cards in Deck: 115
+Total Number of Treasure Cards in Deck 82
+Current Discard Count: 481
+Current Hand Count: 88
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 197
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 314
+Total Number of Test Target Cards in Deck: 132
+Total Number of Treasure Cards in Deck 182
+Current Discard Count: 303
+Current Hand Count: 348
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 314
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 337
+Total Number of Test Target Cards in Deck: 122
+Total Number of Treasure Cards in Deck 215
+Current Discard Count: 36
+Current Hand Count: 266
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 337
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 455
+Total Number of Test Target Cards in Deck: 17
+Total Number of Treasure Cards in Deck 438
+Current Discard Count: 472
+Current Hand Count: 301
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 455
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 114
+Total Number of Test Target Cards in Deck: 52
+Total Number of Treasure Cards in Deck 62
+Current Discard Count: 340
+Current Hand Count: 369
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 114
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 103
+Total Number of Test Target Cards in Deck: 87
+Total Number of Treasure Cards in Deck 16
+Current Discard Count: 243
+Current Hand Count: 3
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 103
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 199
+Total Number of Test Target Cards in Deck: 148
+Total Number of Treasure Cards in Deck 51
+Current Discard Count: 273
+Current Hand Count: 428
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 199
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 443
+Total Number of Test Target Cards in Deck: 125
+Total Number of Treasure Cards in Deck 318
+Current Discard Count: 245
+Current Hand Count: 43
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 443
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 183
+Total Number of Test Target Cards in Deck: 32
+Total Number of Treasure Cards in Deck 151
+Current Discard Count: 300
+Current Hand Count: 382
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 183
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 487
+Total Number of Test Target Cards in Deck: 222
+Total Number of Treasure Cards in Deck 265
+Current Discard Count: 254
+Current Hand Count: 439
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 487
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 122
+Total Number of Test Target Cards in Deck: 26
+Total Number of Treasure Cards in Deck 96
+Current Discard Count: 6
+Current Hand Count: 363
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 122
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 148
+Total Number of Test Target Cards in Deck: 139
+Total Number of Treasure Cards in Deck 9
+Current Discard Count: 2
+Current Hand Count: 50
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 148
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 222
+Total Number of Test Target Cards in Deck: 89
+Total Number of Treasure Cards in Deck 133
+Current Discard Count: 332
+Current Hand Count: 370
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 222
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 189
+Total Number of Test Target Cards in Deck: 52
+Total Number of Treasure Cards in Deck 137
+Current Discard Count: 414
+Current Hand Count: 467
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 189
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 267
+Total Number of Test Target Cards in Deck: 56
+Total Number of Treasure Cards in Deck 211
+Current Discard Count: 261
+Current Hand Count: 480
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 267
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 73
+Total Number of Test Target Cards in Deck: 60
+Total Number of Treasure Cards in Deck 13
+Current Discard Count: 497
+Current Hand Count: 496
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 73
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 306
+Total Number of Test Target Cards in Deck: 74
+Total Number of Treasure Cards in Deck 232
+Current Discard Count: 491
+Current Hand Count: 137
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 306
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 88
+Total Number of Test Target Cards in Deck: 15
+Total Number of Treasure Cards in Deck 73
+Current Discard Count: 449
+Current Hand Count: 100
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 88
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 123
+Total Number of Test Target Cards in Deck: 57
+Total Number of Treasure Cards in Deck 66
+Current Discard Count: 438
+Current Hand Count: 434
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 123
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 305
+Total Number of Test Target Cards in Deck: 94
+Total Number of Treasure Cards in Deck 211
+Current Discard Count: 37
+Current Hand Count: 12
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 305
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 338
+Total Number of Test Target Cards in Deck: 253
+Total Number of Treasure Cards in Deck 85
+Current Discard Count: 325
+Current Hand Count: 323
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 338
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 399
+Total Number of Test Target Cards in Deck: 20
+Total Number of Treasure Cards in Deck 379
+Current Discard Count: 169
+Current Hand Count: 389
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 399
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 120
+Total Number of Test Target Cards in Deck: 60
+Total Number of Treasure Cards in Deck 60
+Current Discard Count: 423
+Current Hand Count: 488
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 120
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 146
+Total Number of Test Target Cards in Deck: 101
+Total Number of Treasure Cards in Deck 45
+Current Discard Count: 70
+Current Hand Count: 371
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 146
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 2
+Total Number of Test Target Cards in Deck: 0
+Total Number of Treasure Cards in Deck 2
+Current Discard Count: 292
+Current Hand Count: 47
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 2
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 326
+Total Number of Test Target Cards in Deck: 121
+Total Number of Treasure Cards in Deck 205
+Current Discard Count: 198
+Current Hand Count: 250
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 326
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 249
+Total Number of Test Target Cards in Deck: 60
+Total Number of Treasure Cards in Deck 189
+Current Discard Count: 275
+Current Hand Count: 229
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 249
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 289
+Total Number of Test Target Cards in Deck: 108
+Total Number of Treasure Cards in Deck 181
+Current Discard Count: 235
+Current Hand Count: 355
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 289
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 165
+Total Number of Test Target Cards in Deck: 43
+Total Number of Treasure Cards in Deck 122
+Current Discard Count: 250
+Current Hand Count: 365
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 165
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 97
+Total Number of Test Target Cards in Deck: 38
+Total Number of Treasure Cards in Deck 59
+Current Discard Count: 118
+Current Hand Count: 150
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 97
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 292
+Total Number of Test Target Cards in Deck: 100
+Total Number of Treasure Cards in Deck 192
+Current Discard Count: 172
+Current Hand Count: 55
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 292
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 367
+Total Number of Test Target Cards in Deck: 363
+Total Number of Treasure Cards in Deck 4
+Current Discard Count: 176
+Current Hand Count: 203
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 367
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 235
+Total Number of Test Target Cards in Deck: 13
+Total Number of Treasure Cards in Deck 222
+Current Discard Count: 383
+Current Hand Count: 279
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 235
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 364
+Total Number of Test Target Cards in Deck: 301
+Total Number of Treasure Cards in Deck 63
+Current Discard Count: 148
+Current Hand Count: 137
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 364
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 401
+Total Number of Test Target Cards in Deck: 6
+Total Number of Treasure Cards in Deck 395
+Current Discard Count: 193
+Current Hand Count: 233
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 401
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 125
+Total Number of Test Target Cards in Deck: 79
+Total Number of Treasure Cards in Deck 46
+Current Discard Count: 42
+Current Hand Count: 319
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 125
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 199
+Total Number of Test Target Cards in Deck: 180
+Total Number of Treasure Cards in Deck 19
+Current Discard Count: 166
+Current Hand Count: 97
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 199
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 141
+Total Number of Test Target Cards in Deck: 103
+Total Number of Treasure Cards in Deck 38
+Current Discard Count: 424
+Current Hand Count: 420
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 141
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 293
+Total Number of Test Target Cards in Deck: 60
+Total Number of Treasure Cards in Deck 233
+Current Discard Count: 355
+Current Hand Count: 482
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 293
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 144
+Total Number of Test Target Cards in Deck: 112
+Total Number of Treasure Cards in Deck 32
+Current Discard Count: 298
+Current Hand Count: 190
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 144
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 435
+Total Number of Test Target Cards in Deck: 317
+Total Number of Treasure Cards in Deck 118
+Current Discard Count: 452
+Current Hand Count: 65
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 435
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 283
+Total Number of Test Target Cards in Deck: 97
+Total Number of Treasure Cards in Deck 186
+Current Discard Count: 66
+Current Hand Count: 22
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 283
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 64
+Total Number of Test Target Cards in Deck: 61
+Total Number of Treasure Cards in Deck 3
+Current Discard Count: 366
+Current Hand Count: 332
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 64
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 3
+Total Number of Test Target Cards in Deck: 0
+Total Number of Treasure Cards in Deck 3
+Current Discard Count: 290
+Current Hand Count: 472
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 3
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 273
+Total Number of Test Target Cards in Deck: 114
+Total Number of Treasure Cards in Deck 159
+Current Discard Count: 158
+Current Hand Count: 426
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 273
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 57
+Total Number of Test Target Cards in Deck: 39
+Total Number of Treasure Cards in Deck 18
+Current Discard Count: 125
+Current Hand Count: 13
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 57
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 293
+Total Number of Test Target Cards in Deck: 215
+Total Number of Treasure Cards in Deck 78
+Current Discard Count: 381
+Current Hand Count: 366
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 293
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 329
+Total Number of Test Target Cards in Deck: 249
+Total Number of Treasure Cards in Deck 80
+Current Discard Count: 200
+Current Hand Count: 284
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 329
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 178
+Total Number of Test Target Cards in Deck: 114
+Total Number of Treasure Cards in Deck 64
+Current Discard Count: 22
+Current Hand Count: 375
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 178
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 258
+Total Number of Test Target Cards in Deck: 185
+Total Number of Treasure Cards in Deck 73
+Current Discard Count: 87
+Current Hand Count: 75
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 258
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 478
+Total Number of Test Target Cards in Deck: 103
+Total Number of Treasure Cards in Deck 375
+Current Discard Count: 324
+Current Hand Count: 425
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 478
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 142
+Total Number of Test Target Cards in Deck: 100
+Total Number of Treasure Cards in Deck 42
+Current Discard Count: 311
+Current Hand Count: 19
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 142
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 6
+Total Number of Test Target Cards in Deck: 4
+Total Number of Treasure Cards in Deck 2
+Current Discard Count: 231
+Current Hand Count: 388
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 6
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 230
+Total Number of Test Target Cards in Deck: 153
+Total Number of Treasure Cards in Deck 77
+Current Discard Count: 259
+Current Hand Count: 12
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 230
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 207
+Total Number of Test Target Cards in Deck: 59
+Total Number of Treasure Cards in Deck 148
+Current Discard Count: 371
+Current Hand Count: 7
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 207
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 321
+Total Number of Test Target Cards in Deck: 219
+Total Number of Treasure Cards in Deck 102
+Current Discard Count: 143
+Current Hand Count: 86
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 321
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 68
+Total Number of Test Target Cards in Deck: 66
+Total Number of Treasure Cards in Deck 2
+Current Discard Count: 156
+Current Hand Count: 490
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 68
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 5
+Total Number of Test Target Cards in Deck: 0
+Total Number of Treasure Cards in Deck 5
+Current Discard Count: 120
+Current Hand Count: 123
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 5
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 369
+Total Number of Test Target Cards in Deck: 324
+Total Number of Treasure Cards in Deck 45
+Current Discard Count: 381
+Current Hand Count: 342
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 369
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 99
+Total Number of Test Target Cards in Deck: 4
+Total Number of Treasure Cards in Deck 95
+Current Discard Count: 136
+Current Hand Count: 461
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 99
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 483
+Total Number of Test Target Cards in Deck: 5
+Total Number of Treasure Cards in Deck 478
+Current Discard Count: 217
+Current Hand Count: 460
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 483
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 234
+Total Number of Test Target Cards in Deck: 210
+Total Number of Treasure Cards in Deck 24
+Current Discard Count: 69
+Current Hand Count: 186
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 234
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 298
+Total Number of Test Target Cards in Deck: 81
+Total Number of Treasure Cards in Deck 217
+Current Discard Count: 169
+Current Hand Count: 349
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 298
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 358
+Total Number of Test Target Cards in Deck: 254
+Total Number of Treasure Cards in Deck 104
+Current Discard Count: 154
+Current Hand Count: 129
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 358
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 4
+Total Number of Test Target Cards in Deck: 2
+Total Number of Treasure Cards in Deck 2
+Current Discard Count: 280
+Current Hand Count: 292
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 4
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 323
+Total Number of Test Target Cards in Deck: 150
+Total Number of Treasure Cards in Deck 173
+Current Discard Count: 233
+Current Hand Count: 312
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 323
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 226
+Total Number of Test Target Cards in Deck: 163
+Total Number of Treasure Cards in Deck 63
+Current Discard Count: 182
+Current Hand Count: 350
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 226
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 67
+Total Number of Test Target Cards in Deck: 41
+Total Number of Treasure Cards in Deck 26
+Current Discard Count: 468
+Current Hand Count: 193
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 67
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 341
+Total Number of Test Target Cards in Deck: 38
+Total Number of Treasure Cards in Deck 303
+Current Discard Count: 28
+Current Hand Count: 132
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 341
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 394
+Total Number of Test Target Cards in Deck: 187
+Total Number of Treasure Cards in Deck 207
+Current Discard Count: 277
+Current Hand Count: 68
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 394
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 93
+Total Number of Test Target Cards in Deck: 42
+Total Number of Treasure Cards in Deck 51
+Current Discard Count: 168
+Current Hand Count: 116
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 93
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 247
+Total Number of Test Target Cards in Deck: 180
+Total Number of Treasure Cards in Deck 67
+Current Discard Count: 316
+Current Hand Count: 362
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 247
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 376
+Total Number of Test Target Cards in Deck: 343
+Total Number of Treasure Cards in Deck 33
+Current Discard Count: 20
+Current Hand Count: 38
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 376
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 34
+Total Number of Test Target Cards in Deck: 23
+Total Number of Treasure Cards in Deck 11
+Current Discard Count: 44
+Current Hand Count: 389
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 34
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 181
+Total Number of Test Target Cards in Deck: 146
+Total Number of Treasure Cards in Deck 35
+Current Discard Count: 291
+Current Hand Count: 183
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 181
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 117
+Total Number of Test Target Cards in Deck: 45
+Total Number of Treasure Cards in Deck 72
+Current Discard Count: 135
+Current Hand Count: 352
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 117
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 427
+Total Number of Test Target Cards in Deck: 420
+Total Number of Treasure Cards in Deck 7
+Current Discard Count: 118
+Current Hand Count: 437
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 427
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 30
+Total Number of Test Target Cards in Deck: 24
+Total Number of Treasure Cards in Deck 6
+Current Discard Count: 254
+Current Hand Count: 270
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 30
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 493
+Total Number of Test Target Cards in Deck: 238
+Total Number of Treasure Cards in Deck 255
+Current Discard Count: 499
+Current Hand Count: 347
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 493
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 90
+Total Number of Test Target Cards in Deck: 45
+Total Number of Treasure Cards in Deck 45
+Current Discard Count: 233
+Current Hand Count: 37
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 90
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 373
+Total Number of Test Target Cards in Deck: 186
+Total Number of Treasure Cards in Deck 187
+Current Discard Count: 191
+Current Hand Count: 156
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 373
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 211
+Total Number of Test Target Cards in Deck: 19
+Total Number of Treasure Cards in Deck 192
+Current Discard Count: 173
+Current Hand Count: 42
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 211
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 32
+Total Number of Test Target Cards in Deck: 11
+Total Number of Treasure Cards in Deck 21
+Current Discard Count: 30
+Current Hand Count: 484
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 32
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 249
+Total Number of Test Target Cards in Deck: 215
+Total Number of Treasure Cards in Deck 34
+Current Discard Count: 390
+Current Hand Count: 370
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 249
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 66
+Total Number of Test Target Cards in Deck: 1
+Total Number of Treasure Cards in Deck 65
+Current Discard Count: 290
+Current Hand Count: 94
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 66
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 57
+Total Number of Test Target Cards in Deck: 39
+Total Number of Treasure Cards in Deck 18
+Current Discard Count: 442
+Current Hand Count: 357
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 57
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 388
+Total Number of Test Target Cards in Deck: 288
+Total Number of Treasure Cards in Deck 100
+Current Discard Count: 83
+Current Hand Count: 117
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 388
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 325
+Total Number of Test Target Cards in Deck: 272
+Total Number of Treasure Cards in Deck 53
+Current Discard Count: 107
+Current Hand Count: 425
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 325
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 70
+Total Number of Test Target Cards in Deck: 64
+Total Number of Treasure Cards in Deck 6
+Current Discard Count: 393
+Current Hand Count: 403
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 70
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 80
+Total Number of Test Target Cards in Deck: 30
+Total Number of Treasure Cards in Deck 50
+Current Discard Count: 184
+Current Hand Count: 238
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 80
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 198
+Total Number of Test Target Cards in Deck: 158
+Total Number of Treasure Cards in Deck 40
+Current Discard Count: 324
+Current Hand Count: 439
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 198
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 421
+Total Number of Test Target Cards in Deck: 284
+Total Number of Treasure Cards in Deck 137
+Current Discard Count: 71
+Current Hand Count: 141
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 421
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 494
+Total Number of Test Target Cards in Deck: 453
+Total Number of Treasure Cards in Deck 41
+Current Discard Count: 133
+Current Hand Count: 290
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 494
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 95
+Total Number of Test Target Cards in Deck: 85
+Total Number of Treasure Cards in Deck 10
+Current Discard Count: 359
+Current Hand Count: 178
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 95
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 388
+Total Number of Test Target Cards in Deck: 23
+Total Number of Treasure Cards in Deck 365
+Current Discard Count: 119
+Current Hand Count: 393
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 388
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 314
+Total Number of Test Target Cards in Deck: 271
+Total Number of Treasure Cards in Deck 43
+Current Discard Count: 106
+Current Hand Count: 100
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 314
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 200
+Total Number of Test Target Cards in Deck: 150
+Total Number of Treasure Cards in Deck 50
+Current Discard Count: 49
+Current Hand Count: 487
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 200
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 133
+Total Number of Test Target Cards in Deck: 96
+Total Number of Treasure Cards in Deck 37
+Current Discard Count: 412
+Current Hand Count: 270
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 133
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 164
+Total Number of Test Target Cards in Deck: 63
+Total Number of Treasure Cards in Deck 101
+Current Discard Count: 245
+Current Hand Count: 367
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 164
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 38
+Total Number of Test Target Cards in Deck: 32
+Total Number of Treasure Cards in Deck 6
+Current Discard Count: 305
+Current Hand Count: 47
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 38
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 492
+Total Number of Test Target Cards in Deck: 279
+Total Number of Treasure Cards in Deck 213
+Current Discard Count: 158
+Current Hand Count: 344
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 492
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 181
+Total Number of Test Target Cards in Deck: 110
+Total Number of Treasure Cards in Deck 71
+Current Discard Count: 318
+Current Hand Count: 229
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 181
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 27
+Total Number of Test Target Cards in Deck: 21
+Total Number of Treasure Cards in Deck 6
+Current Discard Count: 434
+Current Hand Count: 202
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 27
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 208
+Total Number of Test Target Cards in Deck: 190
+Total Number of Treasure Cards in Deck 18
+Current Discard Count: 48
+Current Hand Count: 130
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 208
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 465
+Total Number of Test Target Cards in Deck: 79
+Total Number of Treasure Cards in Deck 386
+Current Discard Count: 176
+Current Hand Count: 326
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 465
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 378
+Total Number of Test Target Cards in Deck: 307
+Total Number of Treasure Cards in Deck 71
+Current Discard Count: 60
+Current Hand Count: 299
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 378
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 259
+Total Number of Test Target Cards in Deck: 237
+Total Number of Treasure Cards in Deck 22
+Current Discard Count: 91
+Current Hand Count: 161
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 259
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 135
+Total Number of Test Target Cards in Deck: 52
+Total Number of Treasure Cards in Deck 83
+Current Discard Count: 392
+Current Hand Count: 489
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 135
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 41
+Total Number of Test Target Cards in Deck: 18
+Total Number of Treasure Cards in Deck 23
+Current Discard Count: 225
+Current Hand Count: 279
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 41
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 339
+Total Number of Test Target Cards in Deck: 293
+Total Number of Treasure Cards in Deck 46
+Current Discard Count: 175
+Current Hand Count: 51
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 339
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 304
+Total Number of Test Target Cards in Deck: 275
+Total Number of Treasure Cards in Deck 29
+Current Discard Count: 190
+Current Hand Count: 21
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 304
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 61
+Total Number of Test Target Cards in Deck: 57
+Total Number of Treasure Cards in Deck 4
+Current Discard Count: 354
+Current Hand Count: 466
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 61
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 268
+Total Number of Test Target Cards in Deck: 89
+Total Number of Treasure Cards in Deck 179
+Current Discard Count: 240
+Current Hand Count: 63
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 268
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 418
+Total Number of Test Target Cards in Deck: 322
+Total Number of Treasure Cards in Deck 96
+Current Discard Count: 163
+Current Hand Count: 282
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 418
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 413
+Total Number of Test Target Cards in Deck: 407
+Total Number of Treasure Cards in Deck 6
+Current Discard Count: 35
+Current Hand Count: 41
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 413
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 392
+Total Number of Test Target Cards in Deck: 356
+Total Number of Treasure Cards in Deck 36
+Current Discard Count: 207
+Current Hand Count: 304
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 392
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 406
+Total Number of Test Target Cards in Deck: 355
+Total Number of Treasure Cards in Deck 51
+Current Discard Count: 249
+Current Hand Count: 97
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 406
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 368
+Total Number of Test Target Cards in Deck: 363
+Total Number of Treasure Cards in Deck 5
+Current Discard Count: 109
+Current Hand Count: 165
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 368
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 296
+Total Number of Test Target Cards in Deck: 163
+Total Number of Treasure Cards in Deck 133
+Current Discard Count: 399
+Current Hand Count: 56
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 296
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 376
+Total Number of Test Target Cards in Deck: 79
+Total Number of Treasure Cards in Deck 297
+Current Discard Count: 200
+Current Hand Count: 224
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 376
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 495
+Total Number of Test Target Cards in Deck: 2
+Total Number of Treasure Cards in Deck 493
+Current Discard Count: 280
+Current Hand Count: 438
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 495
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 75
+Total Number of Test Target Cards in Deck: 24
+Total Number of Treasure Cards in Deck 51
+Current Discard Count: 307
+Current Hand Count: 167
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 75
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 114
+Total Number of Test Target Cards in Deck: 5
+Total Number of Treasure Cards in Deck 109
+Current Discard Count: 2
+Current Hand Count: 96
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 114
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 248
+Total Number of Test Target Cards in Deck: 74
+Total Number of Treasure Cards in Deck 174
+Current Discard Count: 363
+Current Hand Count: 221
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 248
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 88
+Total Number of Test Target Cards in Deck: 48
+Total Number of Treasure Cards in Deck 40
+Current Discard Count: 310
+Current Hand Count: 272
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 88
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 424
+Total Number of Test Target Cards in Deck: 323
+Total Number of Treasure Cards in Deck 101
+Current Discard Count: 399
+Current Hand Count: 245
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 424
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 485
+Total Number of Test Target Cards in Deck: 237
+Total Number of Treasure Cards in Deck 248
+Current Discard Count: 104
+Current Hand Count: 141
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 485
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 96
+Total Number of Test Target Cards in Deck: 12
+Total Number of Treasure Cards in Deck 84
+Current Discard Count: 371
+Current Hand Count: 186
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 96
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 189
+Total Number of Test Target Cards in Deck: 103
+Total Number of Treasure Cards in Deck 86
+Current Discard Count: 266
+Current Hand Count: 23
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 189
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 74
+Total Number of Test Target Cards in Deck: 52
+Total Number of Treasure Cards in Deck 22
+Current Discard Count: 102
+Current Hand Count: 16
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 74
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 93
+Total Number of Test Target Cards in Deck: 66
+Total Number of Treasure Cards in Deck 27
+Current Discard Count: 438
+Current Hand Count: 456
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 93
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 255
+Total Number of Test Target Cards in Deck: 248
+Total Number of Treasure Cards in Deck 7
+Current Discard Count: 371
+Current Hand Count: 106
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 255
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 443
+Total Number of Test Target Cards in Deck: 221
+Total Number of Treasure Cards in Deck 222
+Current Discard Count: 75
+Current Hand Count: 255
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 443
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 382
+Total Number of Test Target Cards in Deck: 40
+Total Number of Treasure Cards in Deck 342
+Current Discard Count: 399
+Current Hand Count: 50
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 382
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 214
+Total Number of Test Target Cards in Deck: 49
+Total Number of Treasure Cards in Deck 165
+Current Discard Count: 285
+Current Hand Count: 248
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 214
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 365
+Total Number of Test Target Cards in Deck: 86
+Total Number of Treasure Cards in Deck 279
+Current Discard Count: 368
+Current Hand Count: 338
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 365
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 389
+Total Number of Test Target Cards in Deck: 41
+Total Number of Treasure Cards in Deck 348
+Current Discard Count: 361
+Current Hand Count: 146
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 389
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 133
+Total Number of Test Target Cards in Deck: 61
+Total Number of Treasure Cards in Deck 72
+Current Discard Count: 334
+Current Hand Count: 212
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 133
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 399
+Total Number of Test Target Cards in Deck: 24
+Total Number of Treasure Cards in Deck 375
+Current Discard Count: 269
+Current Hand Count: 337
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 399
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 71
+Total Number of Test Target Cards in Deck: 56
+Total Number of Treasure Cards in Deck 15
+Current Discard Count: 439
+Current Hand Count: 372
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 71
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 200
+Total Number of Test Target Cards in Deck: 17
+Total Number of Treasure Cards in Deck 183
+Current Discard Count: 11
+Current Hand Count: 392
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 200
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 39
+Total Number of Test Target Cards in Deck: 3
+Total Number of Treasure Cards in Deck 36
+Current Discard Count: 362
+Current Hand Count: 10
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 39
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 447
+Total Number of Test Target Cards in Deck: 328
+Total Number of Treasure Cards in Deck 119
+Current Discard Count: 353
+Current Hand Count: 180
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 447
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 420
+Total Number of Test Target Cards in Deck: 273
+Total Number of Treasure Cards in Deck 147
+Current Discard Count: 19
+Current Hand Count: 206
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 420
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 310
+Total Number of Test Target Cards in Deck: 283
+Total Number of Treasure Cards in Deck 27
+Current Discard Count: 371
+Current Hand Count: 369
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 310
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 115
+Total Number of Test Target Cards in Deck: 19
+Total Number of Treasure Cards in Deck 96
+Current Discard Count: 215
+Current Hand Count: 364
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 115
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 338
+Total Number of Test Target Cards in Deck: 31
+Total Number of Treasure Cards in Deck 307
+Current Discard Count: 266
+Current Hand Count: 204
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 338
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 110
+Total Number of Test Target Cards in Deck: 102
+Total Number of Treasure Cards in Deck 8
+Current Discard Count: 449
+Current Hand Count: 76
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 110
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 491
+Total Number of Test Target Cards in Deck: 8
+Total Number of Treasure Cards in Deck 483
+Current Discard Count: 485
+Current Hand Count: 224
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 491
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 339
+Total Number of Test Target Cards in Deck: 281
+Total Number of Treasure Cards in Deck 58
+Current Discard Count: 187
+Current Hand Count: 146
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 339
+New deck count: 0
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 50
+Total Number of Test Target Cards in Deck: 24
+Total Number of Treasure Cards in Deck 26
+Current Discard Count: 139
+Current Hand Count: 403
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 50
+New deck count: 0
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 264
+Total Number of Test Target Cards in Deck: 13
+Total Number of Treasure Cards in Deck 251
+Current Discard Count: 213
+Current Hand Count: 414
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 264
+New deck count: 0
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 379
+Total Number of Test Target Cards in Deck: 89
+Total Number of Treasure Cards in Deck 290
+Current Discard Count: 183
+Current Hand Count: 317
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 379
+New deck count: 0
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 76
+Total Number of Test Target Cards in Deck: 56
+Total Number of Treasure Cards in Deck 20
+Current Discard Count: 408
+Current Hand Count: 471
+Checking functions used by test target
+drawCard: 
+	...PASSED
+shuffle: 
+	...FAILED 
+Old deck count: 76
+New deck count: 0

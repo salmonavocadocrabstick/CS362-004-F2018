@@ -1,0 +1,102 @@
+Results of Test 2:
+Testing [ COUNCIL_ROOM ]  
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 0
+Current Discard Count: 212
+Current Hand Count: 3
+Current Buy Count 229
+Current Action Count 839
+Checking functions used by test target
+drawCard: 
+	...PASSED
+discardCard: 
+	...PASSED
+Target card: 
+	...FAILED 
+		...deck count 207
+	...FAILED 
+		... hand count 6
+Testing if other players are affected: 
+	...PASSED
+
+-------------------------------------
+Current Player: 1
+Current Deck Count: 163
+Current Discard Count: 486
+Current Hand Count: 128
+Current Buy Count 161
+Current Action Count 945
+Checking functions used by test target
+drawCard: 
+	...PASSED
+discardCard: 
+	...PASSED
+Target card: 
+	...FAILED 
+		...deck count 162
+	...FAILED 
+		... hand count 128
+Testing if other players are affected: 
+	...PASSED
+
+-------------------------------------
+Current Player: 2
+Current Deck Count: 366
+Current Discard Count: 143
+Current Hand Count: 420
+Current Buy Count 26
+Current Action Count 95
+Checking functions used by test target
+drawCard: 
+	...PASSED
+discardCard: 
+	...PASSED
+Target card: 
+	...FAILED 
+		...deck count 365
+	...FAILED 
+		... hand count 420
+Testing if other players are affected: 
+	...PASSED
+
+-------------------------------------
+Current Player: 3
+Current Deck Count: 86
+Current Discard Count: 353
+Current Hand Count: 337
+Current Buy Count 173
+Current Action Count 542
+Checking functions used by test target
+drawCard: 
+	...PASSED
+discardCard: 
+	...PASSED
+Target card: 
+	...FAILED 
+		...deck count 85
+	...FAILED 
+		... hand count 337
+Testing if other players are affected: 
+	...PASSED
+
+-------------------------------------
+Current Player: 0
+Current Deck Count: 255
+Current Discard Count: 389
+Current Hand Count: 120
+Current Buy Count 178
+Current Action Count 503
+Checking functions used by test target
+drawCard: 
+	...PASSED
+discardCard: 
+	...PASSED
+Target card: 
+	...FAILED 
+		...deck count 250
+	...FAILED 
+		... hand count 123
+Testing if other players are affected: 
+	...PASSED

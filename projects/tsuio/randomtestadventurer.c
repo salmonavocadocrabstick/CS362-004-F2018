@@ -200,6 +200,10 @@ int checkTarget(int currentPlayer, struct gameState* testGame, int handPos, int 
 	int cardsDrawn = 0;
 	int treasureDrawn = 0;
 
+	//target
+	int testTarget = adventurer;
+	int bonus = 0;
+
 	//Set to TRUE if found
 	int bugFound = FALSE;
 
@@ -220,7 +224,8 @@ int checkTarget(int currentPlayer, struct gameState* testGame, int handPos, int 
 			printf("Target card: \n");
 
 				//Change target card here==================:
-				adventurer_effect_bug(0, treasureDrawn,  testGame, currentPlayer );
+				//adventurer_effect_bug(0, treasureDrawn,  testGame, currentPlayer );
+					cardEffect(testTarget, 0, 0, 0, testGame, handPos, &bonus);
 
 				//==========================================
 

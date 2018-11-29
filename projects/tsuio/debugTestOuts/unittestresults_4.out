@@ -91,7 +91,7 @@ Creating 'dominion.c.gcov'
 
 -----------------------------------------------------
 
-unittest4.c - getCost(int):
+unittest4.c - whoseTurn(int):
 
 Initiating Test game....
 Testing Case: Player turn changes....

@@ -125,7 +125,7 @@ int main(){
 
 	printf("\t- Score = %d\t\t|\texpected = %d\n",
 		scoreFor(0, testState),
-		scoreFor(0, state));
+		scoreFor(0, state ) + scoreChange);
 
 	printf("\n\n");
 	printf("Testing when another copy is gained.....\n");

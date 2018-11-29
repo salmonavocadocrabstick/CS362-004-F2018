@@ -78,7 +78,7 @@ Estate: 2	|	expected 2
 Duchy: 5	|	expected 5
 Feast: 4	|	expected 4
 Smithy: 4	|	expected 4
-Gold: 6	|	expected 4
+Gold: 6	|	expected 6
 File 'dominion.c'
 Lines executed:20.88% of 565
 Branches executed:26.38% of 417

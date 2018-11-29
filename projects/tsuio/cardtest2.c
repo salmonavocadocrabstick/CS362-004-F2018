@@ -14,7 +14,7 @@ int main(){
 	int testTarget = council_room;
 
 	//Information on testTarget
-	int newCards = 5;	
+	int newCards = 4;	
 	int discarded = 1;
 	int extraCoins = 0;
 	int shuffleCards = 0;
